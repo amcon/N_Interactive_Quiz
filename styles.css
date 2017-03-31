@@ -1,0 +1,192 @@
+body {
+  width: 100%;
+  margin: 0;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+  font-family: Verdana;
+}
+
+/*----------------------------------*/
+
+.header {
+  height: 250px;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 1px solid grey;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(60, 60, 60);
+}
+
+        .logo-box {
+          height: 100%;
+          width: 20%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+                .logo {
+                  height: 65%;
+                  width: 65%;
+                  box-sizing: border-box;
+                  border: 1px solid grey;
+                  border-radius: 100%;
+                  background-color: grey;
+                }
+
+        .header-info {
+          height: 100%;
+          width: 80%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+        }
+
+                .header-info h2 {
+                  font-size: 30px;
+                  color: white;
+                }
+
+                .line {
+                  height: 7px;
+                  width: 60%;
+                  background-color: red;
+                  margin: 2% 0;
+                }
+
+                .header-info p {
+                  font-size: 20px;
+                  color: white;
+                }
+
+        .nav {
+          position: absolute;
+          margin-top: 220px;
+          height: 30px;
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-end;
+          align-items: center;
+        }
+
+                .nav p {
+                  font-size: 10px;
+                  margin-right: 2.5%;
+                  color: white;
+                }
+
+/*----------------------------------*/
+
+.info-box {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+        .info {
+          height: 80%;
+          width: 60%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+        }
+
+                .share-quiz {
+                  height: 30%;
+                  width: 100%;
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: space-between;
+                  align-items: center;
+                }
+
+                        .share {
+                          height: 50%;
+                          width: 20%;
+                          box-sizing: border-box;
+                          border: 1px solid grey;
+                        }
+
+/*----------------------------------*/
+
+.quiz {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+        .question-box {
+          height: 800px;
+          width: 60%;
+          margin-top: 100px;
+          box-sizing: border-box;
+          border: 1px solid grey;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: center;
+        }
+
+        #q1 {
+          margin-top: 0;
+        }
+
+        #q8 {
+          margin-bottom: 100px;
+        }
+
+                .question {
+                  height: 55%;
+                  width: 80%;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: flex-start;
+                  align-items: flex-start;
+                  box-sizing: border-box;
+                  border: 1px solid grey;
+                }
+
+                        .question h2 {
+                          margin: 2%;
+                        }
+
+                .answer-box {
+                  height: 45%;
+                  width: 80%;
+                  display: flex;
+                  flex-direction: row;
+                  flex-wrap: wrap;
+                  justify-content: space-between;
+                  align-items: flex-end;
+                  box-sizing: border-box;
+                  border: 1px solid grey;
+                }
+
+                        .answer {
+                          height: 45%;
+                          width: 30%;
+                          box-sizing: border-box;
+                          border: 1px solid grey;
+                        }
+
+/*----------------------------------*/
+
+.footer {
+  height: 200px;
+  width: 100%;
+  box-sizing: border-box;
+  border-top: 1px solid grey;
+}
+
+
