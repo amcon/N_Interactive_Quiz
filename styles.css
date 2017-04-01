@@ -93,7 +93,7 @@ h1, h2, h3, p {
 
         .info {
           height: 80%;
-          width: 60%;
+          width: 47.5%;
           display: flex;
           flex-direction: column;
           justify-content: space-around;
@@ -127,11 +127,9 @@ h1, h2, h3, p {
 }
 
         .question-box {
-          height: 800px;
+          height: 850px;
           width: 60%;
           margin-top: 100px;
-          box-sizing: border-box;
-          border: 1px solid grey;
           display: flex;
           flex-direction: column;
           justify-content: flex-start;
@@ -147,7 +145,7 @@ h1, h2, h3, p {
         }
 
                 .question {
-                  height: 55%;
+                  height: 42.5%;
                   width: 80%;
                   display: flex;
                   flex-direction: column;
@@ -155,6 +153,7 @@ h1, h2, h3, p {
                   align-items: flex-start;
                   box-sizing: border-box;
                   border: 1px solid grey;
+                  margin-bottom: 2.5%;
                 }
 
                         .question h2 {
@@ -162,23 +161,56 @@ h1, h2, h3, p {
                         }
 
                 .answer-box {
-                  height: 45%;
-                  width: 80%;
+                  height: 55%;
+                  width: 82%;
                   display: flex;
                   flex-direction: row;
                   flex-wrap: wrap;
                   justify-content: space-between;
                   align-items: flex-end;
-                  box-sizing: border-box;
-                  border: 1px solid grey;
                 }
 
                         .answer {
-                          height: 45%;
-                          width: 30%;
-                          box-sizing: border-box;
-                          border: 1px solid grey;
+                          height: 47.5%;
+                          width: 32%;
+                          display: flex;
+                          flex-direction: column;
+                          justify-content: space-around;
+                          align-items: center;
                         }
+
+                        .answer:hover {
+                          background-color: lightgrey;
+                        }
+
+                                .answer-info {
+                                  height: 90%;
+                                  width: 90%;
+                                  background-color: white;
+                                  box-sizing: border-box;
+                                  border: 1px solid grey;
+                                  display: flex;
+                                  flex-direction: column;
+                                  justify-content: space-around;
+                                  align-items: center;
+                                }
+
+                                        .answer-info img {
+                                          height: 50%;
+                                          width: 80%;
+                                          box-sizing: border-box;
+                                          border: 1px solid grey;
+                                        }
+
+                                        .answer-info p {
+                                          display: flex;
+                                          justify-content: center;
+                                          align-items: center;
+                                          height: 28%;
+                                          width: 78%;
+                                          box-sizing: border-box;
+                                          border: 1px solid grey;
+                                        }
 
 /*----------------------------------*/
 
