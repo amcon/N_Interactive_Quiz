@@ -37,6 +37,10 @@ h1, h2, h3, p {
                   background-color: grey;
                 }
 
+                .logo:hover {
+                  cursor: pointer;
+                }
+
         .header-info {
           height: 100%;
           width: 80%;
@@ -80,6 +84,10 @@ h1, h2, h3, p {
                   color: white;
                 }
 
+                .nav p:hover {
+                  cursor: pointer;
+                }
+
 /*----------------------------------*/
 
 .info-box {
@@ -114,6 +122,10 @@ h1, h2, h3, p {
                           width: 20%;
                           box-sizing: border-box;
                           border: 1px solid grey;
+                        }
+
+                        .share:hover {
+                          cursor: pointer;
                         }
 
 /*----------------------------------*/
@@ -181,6 +193,39 @@ h1, h2, h3, p {
 
                         .answer:hover {
                           background-color: lightgrey;
+                          cursor: pointer;
+                        }
+
+                        .q1chosen {
+                          background-color: lightgrey;
+                        }
+
+                        .q2chosen {
+                          background-color: lightgrey;
+                        }
+
+                        .q3chosen {
+                          background-color: lightgrey;
+                        }
+
+                        .q4chosen {
+                          background-color: lightgrey;
+                        }
+
+                        .q5chosen {
+                          background-color: lightgrey;
+                        }
+
+                        .q6chosen {
+                          background-color: lightgrey;
+                        }
+
+                        .q7chosen {
+                          background-color: lightgrey;
+                        }
+
+                        .q8chosen {
+                          background-color: lightgrey;
                         }
 
                                 .answer-info {
@@ -191,7 +236,7 @@ h1, h2, h3, p {
                                   border: 1px solid grey;
                                   display: flex;
                                   flex-direction: column;
-                                  justify-content: space-around;
+                                  justify-content: space-between;
                                   align-items: center;
                                 }
 
@@ -200,6 +245,7 @@ h1, h2, h3, p {
                                           width: 80%;
                                           box-sizing: border-box;
                                           border: 1px solid grey;
+                                          margin-top: 10%;
                                         }
 
                                         .answer-info p {
@@ -210,7 +256,80 @@ h1, h2, h3, p {
                                           width: 78%;
                                           box-sizing: border-box;
                                           border: 1px solid grey;
+                                          margin-bottom: 10%;
                                         }
+
+                .result {
+                  opacity: 0;
+                  height: 0px;
+                  width: 50%;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: space-around;
+                  align-items: center;
+                  box-sizing: border-box;
+                  border: 1px solid grey;
+                  margin-bottom: 100px;
+                  transition: 0.5s;
+                  position: fixed;
+                  top: 15px;
+                }
+
+                .finished {
+                  height: 650px;
+                  opacity: 1;
+                  background-color: white;
+                }
+
+                        .result-title {
+                          height: 10%;
+                          width: 90%;
+                          display: flex;
+                          flex-direction: row;
+                          justify-content: flex-start;
+                          align-items: center;
+                        }
+
+                        .result-image {
+                          height: 45%;
+                          width: 90%;
+                          box-sizing: border-box;
+                          border: 1px solid grey;
+                        }
+
+                        .result-description {
+                          height: 30%;
+                          width: 90%;
+                          display: flex;
+                          flex-direction: column;
+                          justify-content: flex-start;
+                          align-items: flex-start;
+                        }
+
+                        .result-share {
+                          height: 8%;
+                          width: 90%;
+                          display: flex;
+                          flex-direction: row;
+                          justify-content: space-between;
+                          align-items: center;
+                        }
+
+                                .result-button {
+                                  width: 28%;
+                                  height: 60%;
+                                  box-sizing: border-box;
+                                  border: 1px solid grey;
+                                  display: flex;
+                                  justify-content: center;
+                                  align-items: center;
+                                }
+
+                                #take-again:hover {
+                                  cursor: pointer;
+                                  background-color: grey;
+                                  color: white;
+                                }
 
 /*----------------------------------*/
 
