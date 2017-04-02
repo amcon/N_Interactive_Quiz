@@ -311,7 +311,6 @@ h1, h2, h3, p {
                   align-items: center;
                   box-sizing: border-box;
                   border: 1px solid grey;
-                  margin-bottom: 100px;
                   transition: 0.5s;
                   position: fixed;
                   top: 15px;
@@ -463,6 +462,16 @@ and (orientation: portrait) {
   width: 93%;
 }
 
+.finished {
+  height: 1300px;
+}
+
+.result {
+  width: 90%;
+  left: 5%;
+  top: 200px;
+}
+
 }
 
 @media only screen
@@ -501,6 +510,16 @@ and (orientation: portrait) {
   width: 93%;
 }
 
+.finished {
+  height: 1300px;
+}
+
+.result {
+  width: 90%;
+  left: 5%;
+  top: 200px;
+}
+
 }
 
 @media only screen
@@ -537,6 +556,16 @@ and (orientation: portrait) {
 
 .answer-box {
   width: 93%;
+}
+
+.finished {
+  height: 1300px;
+}
+
+.result {
+  width: 90%;
+  left: 5%;
+  top: 200px;
 }
 
 }
