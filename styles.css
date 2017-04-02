@@ -4,6 +4,7 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  background-color: rgb(40, 40, 40);
 }
 
 h1, h2, h3, h4, p {

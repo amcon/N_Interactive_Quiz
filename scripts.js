@@ -246,4 +246,25 @@ $(function() {
     location.reload();
   });
 
+  $('#share-quiz-email').click(function() {
+    window.open("mailto:?subject=Based on Your Personality, We'll Tell You Your Perfect Nissan&body=Take this quiz:%0D%0Ahttps://amcon.github.io/N_Interactive_Quiz", "_blank");
+  });
+
+
+  FB.init({appId: '274978829611159', status: true, cookie:true, xfbml: true});
+  $('#share-quiz-facebook').click(function() {
+    FB.ui({
+      method: 'share',
+      href: 'https://amcon.github.io/N_Interactive_Quiz',
+    }, function(response){});
+  });
+
+  $('#share-quiz-twitter').click(function() {
+    window.open("https://twitter.com/intent/tweet?url=https://amcon.github.io/N_Interactive_Quiz&text=Check out this quiz!");
+  })
+
+  $('#share-quiz-pinterest').click(function() {
+    window.open("https://www.pinterest.com/pin/create/button/?url=https://amcon.github.io/N_Interactive_Quiz&media=http://images.hgmsites.net/med/2014-nissan-rogue_100439768_m.jpg&description=Check out this quiz!")
+  })
+
 });
