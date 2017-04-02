@@ -27,7 +27,7 @@ h1, h2, h3, p {
         .logo-box {
           height: 115%;
           width: 15%;
-          margin: 0 5%;
+          margin: 0 2.5%;
           display: flex;
           justify-content: center;
           align-items: center;
