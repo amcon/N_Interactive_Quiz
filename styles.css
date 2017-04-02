@@ -326,7 +326,7 @@ h1, h2, h3, p {
                 }
 
                         .result-title {
-                          height: 10%;
+                          height: 8%;
                           width: 95%;
                           display: flex;
                           flex-direction: row;
@@ -339,7 +339,7 @@ h1, h2, h3, p {
                                 }
 
                         .result-image {
-                          height: 45%;
+                          height: 50%;
                           width: 95%;
                           box-shadow: 0 0 .2em grey;
                         }
