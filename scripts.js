@@ -1,5 +1,3 @@
-console.log("we're runnin...")
-
 $(function() {
 
   let questionOneTop = $('#q1').position();
