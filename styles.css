@@ -72,7 +72,7 @@ h1, h2, h3, p {
           position: absolute;
           margin-top: 220px;
           height: 30px;
-          width: 100%;
+          width: 50%;
           display: flex;
           flex-direction: row;
           justify-content: flex-end;
