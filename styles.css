@@ -20,6 +20,8 @@ h1, h2, h3, p {
   flex-direction: row;
   background-color: rgb(30, 30, 30);
   box-shadow: 0 0 1em grey;
+  position: relative;
+  z-index: 1;
 }
 
         .logo-box {
