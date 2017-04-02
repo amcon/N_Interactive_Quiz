@@ -213,21 +213,27 @@ $(function() {
     if (completedCounter === 8 && max === 1) {
       $('.result').addClass('finished');
       $('.result-title').append('<h1>NISSAN NUMBER 1</h1>');
+      $('.result-description').append("<p>This is the Nissan model that was selected based on your answers. This is an incredible car. You'll want to learn more about it. Promise. Thanks for taking the quiz. You rock!</p>");
     } else if (completedCounter === 8 && max === 2) {
       $('.result').addClass('finished');
       $('.result-title').append('<h1>NISSAN NUMBER 2</h1>');
+      $('.result-description').append("<p>This is the Nissan model that was selected based on your answers. This is an incredible car. You'll want to learn more about it. Promise. Thanks for taking the quiz. You rock!</p>");
     } else if (completedCounter === 8 && max === 3) {
       $('.result').addClass('finished');
       $('.result-title').append('<h1>NISSAN NUMBER 3</h1>');
+      $('.result-description').append("<p>This is the Nissan model that was selected based on your answers. This is an incredible car. You'll want to learn more about it. Promise. Thanks for taking the quiz. You rock!</p>");
     } else if (completedCounter === 8 && max === 4) {
       $('.result').addClass('finished');
       $('.result-title').append('<h1>NISSAN NUMBER 4</h1>');
+      $('.result-description').append("<p>This is the Nissan model that was selected based on your answers. This is an incredible car. You'll want to learn more about it. Promise. Thanks for taking the quiz. You rock!</p>");
     } else if (completedCounter === 8 && max === 5) {
       $('.result').addClass('finished');
       $('.result-title').append('<h1>NISSAN NUMBER 5</h1>');
+      $('.result-description').append("<p>This is the Nissan model that was selected based on your answers. This is an incredible car. You'll want to learn more about it. Promise. Thanks for taking the quiz. You rock!</p>");
     } else if (completedCounter === 8 && max === 6) {
       $('.result').addClass('finished');
       $('.result-title').append('<h1>NISSAN NUMBER 6</h1>');
+      $('.result-description').append("<p>This is the Nissan model that was selected based on your answers. This is an incredible car. You'll want to learn more about it. Promise. Thanks for taking the quiz. You rock!</p>");
     }
   };
 

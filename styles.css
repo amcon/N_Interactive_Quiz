@@ -1,7 +1,6 @@
 body {
   width: 100%;
   margin: 0;
-  background-color: lightgrey;
 }
 
 h1, h2, h3, p {
@@ -16,7 +15,7 @@ h1, h2, h3, p {
   width: 100%;
   display: flex;
   flex-direction: row;
-  background-color: rgb(60, 60, 60);
+  background-color: rgb(30, 30, 30);
   box-shadow: 0 0 1em grey;
 }
 
@@ -29,12 +28,10 @@ h1, h2, h3, p {
         }
 
                 .logo {
-                  height: 65%;
+                  height: 54%;
                   width: 65%;
-                  box-sizing: border-box;
-                  border: 1px solid grey;
-                  border-radius: 100%;
-                  background-color: grey;
+                  background-image: url('images/nissan-logo-temp.png');
+                  background-size: 100%;
                 }
 
                 .logo:hover {
@@ -56,9 +53,9 @@ h1, h2, h3, p {
                 }
 
                 .line {
-                  height: 7px;
+                  height: 6px;
                   width: 60%;
-                  background-color: red;
+                  background-color: rgb(197, 26, 71);
                   margin: 2% 0;
                 }
 
@@ -97,6 +94,7 @@ h1, h2, h3, p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: lightgrey;
 }
 
         .info {
@@ -174,6 +172,7 @@ h1, h2, h3, p {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  background-color: lightgrey;
 }
 
         .question-box {
@@ -203,7 +202,8 @@ h1, h2, h3, p {
                   align-items: flex-start;
                   margin-bottom: 2.5%;
                   box-shadow: 0 0 .2em grey;
-                  background-color: rgb(120, 120, 120);
+                  background-image: url('images/car.jpg');
+                  background-size: 100%;
                   color: white;
                 }
 
@@ -339,12 +339,13 @@ h1, h2, h3, p {
                         }
 
                         .result-description {
-                          height: 30%;
+                          height: 20%;
                           width: 90%;
                           display: flex;
                           flex-direction: column;
                           justify-content: flex-start;
                           align-items: flex-start;
+                          padding-top: 10%;
                         }
 
                         .result-share {
@@ -364,6 +365,10 @@ h1, h2, h3, p {
                                   align-items: center;
                                   box-shadow: 0 0 .2em lightgrey;
                                 }
+
+                                        .result-button img {
+                                          height: 60%;
+                                        }
 
                                 #share-results-facebook {
                                   background-color: rgb(59, 89, 152);
@@ -385,6 +390,10 @@ h1, h2, h3, p {
                                   background-color: grey;
                                   color: white;
                                 }
+
+                                        #take-again h3 {
+                                          font-size: 15px;
+                                        }
 
                                 #take-again:hover {
                                   cursor: pointer;
