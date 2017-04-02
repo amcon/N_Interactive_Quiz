@@ -6,7 +6,7 @@ body {
   align-items: center;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, h4, p {
   margin: 0;
   font-family: Verdana;
 }
@@ -102,7 +102,7 @@ h1, h2, h3, p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: lightgrey;
+  background-color: rgb(220, 220, 220);
 }
 
         .info {
@@ -180,7 +180,7 @@ h1, h2, h3, p {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-color: lightgrey;
+  background-color: rgb(220, 220, 220);
 }
 
         .question-box {
@@ -239,40 +239,40 @@ h1, h2, h3, p {
                         }
 
                         .answer:hover {
-                          background-color: grey;
+                          background-color: rgb(200, 200, 200);
                           cursor: pointer;
                         }
 
                         .q1chosen {
-                          background-color: grey;
+                          background-color: rgb(200, 200, 200);
                         }
 
                         .q2chosen {
-                          background-color: grey;
+                          background-color: rgb(200, 200, 200);
                         }
 
                         .q3chosen {
-                          background-color: grey;
+                          background-color: rgb(200, 200, 200);
                         }
 
                         .q4chosen {
-                          background-color: grey;
+                          background-color: rgb(200, 200, 200);
                         }
 
                         .q5chosen {
-                          background-color: grey;
+                          background-color: rgb(200, 200, 200);
                         }
 
                         .q6chosen {
-                          background-color: grey;
+                          background-color: rgb(200, 200, 200);
                         }
 
                         .q7chosen {
-                          background-color: grey;
+                          background-color: rgb(200, 200, 200);
                         }
 
                         .q8chosen {
-                          background-color: grey;
+                          background-color: rgb(200, 200, 200);
                         }
 
                                 .answer-info {
@@ -413,11 +413,63 @@ h1, h2, h3, p {
 /*----------------------------------*/
 
 .footer {
-  height: 200px;
   width: 100%;
   box-shadow: 0 0 1em grey;
-  background-color: white;
+  background-color: rgb(40, 40, 40);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
+
+        .links {
+          width: 60%;
+          padding: 3% 0 5% 10%;
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          align-items: flex-start;
+        }
+
+                .links div {
+                  margin-right: 5%;
+                }
+
+                .learn {
+                  width: 20%;
+                }
+
+                .shop {
+                  width: 23%;
+                }
+
+                .links h4 {
+                  font-size: 13px;
+                  color: #FAFAFA;
+                  font-weight: lighter;
+                  margin-bottom: 30px;
+                }
+
+                .links p {
+                  font-size: 10px;
+                  color: #FAFAFA;
+                  font-weight: lighter;
+                }
+
+        .icon-box {
+          width: 40%;
+          height: 50px;
+          padding: 0 0 5% 10%;
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          align-items: center;
+        }
+
+                .icon {
+                  margin-right: 15%;
+                  height: 25px;
+                }
 
 
 
