@@ -415,3 +415,125 @@ h1, h2, h3, p {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation: portrait) {
+
+.info {
+  width: 90%;
+}
+
+.question-box {
+  width: 100%;
+}
+
+.question {
+  width: 90%;
+}
+
+.question-box {
+  height: 1000px;
+}
+
+.answer-box {
+  width: 93%;
+}
+
+}
+
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation: landscape) {
+
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation: portrait) {
+
+.info {
+  width: 90%;
+}
+
+.question-box {
+  width: 100%;
+}
+
+.question {
+  width: 90%;
+}
+
+.question-box {
+  height: 1000px;
+}
+
+.answer-box {
+  width: 93%;
+}
+
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation: landscape) {
+
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation: portrait) {
+
+.info {
+  width: 90%;
+}
+
+.question-box {
+  width: 100%;
+}
+
+.question {
+  width: 90%;
+}
+
+.question-box {
+  height: 1000px;
+}
+
+.answer-box {
+  width: 93%;
+}
+
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation: landscape) {
+
+}
+
+
