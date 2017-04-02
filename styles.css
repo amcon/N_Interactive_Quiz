@@ -443,6 +443,10 @@ and (orientation: portrait) {
   width: 90%;
 }
 
+.info-box {
+  height: 500px;
+}
+
 .question-box {
   width: 100%;
 }
@@ -452,7 +456,7 @@ and (orientation: portrait) {
 }
 
 .question-box {
-  height: 1000px;
+  height: 1300px;
 }
 
 .answer-box {
@@ -477,6 +481,10 @@ and (orientation: portrait) {
   width: 90%;
 }
 
+.info-box {
+  height: 500px;
+}
+
 .question-box {
   width: 100%;
 }
@@ -486,7 +494,7 @@ and (orientation: portrait) {
 }
 
 .question-box {
-  height: 1000px;
+  height: 1300px;
 }
 
 .answer-box {
@@ -511,6 +519,10 @@ and (orientation: portrait) {
   width: 90%;
 }
 
+.info-box {
+  height: 500px;
+}
+
 .question-box {
   width: 100%;
 }
@@ -520,7 +532,7 @@ and (orientation: portrait) {
 }
 
 .question-box {
-  height: 1000px;
+  height: 1300px;
 }
 
 .answer-box {
