@@ -1,6 +1,7 @@
 body {
   width: 100%;
   margin: 0;
+  background-color: lightgrey;
 }
 
 h1, h2, h3, p {
@@ -13,11 +14,10 @@ h1, h2, h3, p {
 .header {
   height: 250px;
   width: 100%;
-  box-sizing: border-box;
-  border-bottom: 1px solid grey;
   display: flex;
   flex-direction: row;
   background-color: rgb(60, 60, 60);
+  box-shadow: 0 0 1em grey;
 }
 
         .logo-box {
@@ -119,9 +119,47 @@ h1, h2, h3, p {
 
                         .share {
                           height: 50%;
-                          width: 20%;
-                          box-sizing: border-box;
-                          border: 1px solid grey;
+                          width: 24.5%;
+                          box-shadow: 0 0 .2em grey;
+                          display: flex;
+                          justify-content: center;
+                          align-items: center;
+                        }
+
+                        .share img {
+                          height: 60%;
+                        }
+
+                        #share-quiz-facebook {
+                          background-color: rgb(59, 89, 152);
+                        }
+
+                        #share-quiz-facebook:hover {
+                          background-color: rgb(26, 67, 132);
+                        }
+
+                        #share-quiz-twitter {
+                          background-color: rgb(85, 172, 238);
+                        }
+
+                        #share-quiz-twitter:hover {
+                          background-color: rgb(75, 155, 216);
+                        }
+
+                        #share-quiz-pinterest {
+                          background-color: rgb(189, 8, 28);
+                        }
+
+                        #share-quiz-pinterest:hover {
+                          background-color: rgb(165, 8, 26);
+                        }
+
+                        #share-quiz-email {
+                          background-color: grey;
+                        }
+
+                        #share-quiz-email:hover {
+                          background-color: rgb(120, 120, 120);
                         }
 
                         .share:hover {
@@ -163,13 +201,14 @@ h1, h2, h3, p {
                   flex-direction: column;
                   justify-content: flex-start;
                   align-items: flex-start;
-                  box-sizing: border-box;
-                  border: 1px solid grey;
                   margin-bottom: 2.5%;
+                  box-shadow: 0 0 .2em grey;
+                  background-color: rgb(120, 120, 120);
+                  color: white;
                 }
 
                         .question h2 {
-                          margin: 2%;
+                          margin: 5%;
                         }
 
                 .answer-box {
@@ -192,40 +231,40 @@ h1, h2, h3, p {
                         }
 
                         .answer:hover {
-                          background-color: lightgrey;
+                          background-color: grey;
                           cursor: pointer;
                         }
 
                         .q1chosen {
-                          background-color: lightgrey;
+                          background-color: grey;
                         }
 
                         .q2chosen {
-                          background-color: lightgrey;
+                          background-color: grey;
                         }
 
                         .q3chosen {
-                          background-color: lightgrey;
+                          background-color: grey;
                         }
 
                         .q4chosen {
-                          background-color: lightgrey;
+                          background-color: grey;
                         }
 
                         .q5chosen {
-                          background-color: lightgrey;
+                          background-color: grey;
                         }
 
                         .q6chosen {
-                          background-color: lightgrey;
+                          background-color: grey;
                         }
 
                         .q7chosen {
-                          background-color: lightgrey;
+                          background-color: grey;
                         }
 
                         .q8chosen {
-                          background-color: lightgrey;
+                          background-color: grey;
                         }
 
                                 .answer-info {
@@ -238,24 +277,22 @@ h1, h2, h3, p {
                                   flex-direction: column;
                                   justify-content: space-between;
                                   align-items: center;
+                                  box-shadow: 0 0 .2em grey;
                                 }
 
                                         .answer-info img {
-                                          height: 50%;
+                                          height: 65%;
                                           width: 80%;
-                                          box-sizing: border-box;
-                                          border: 1px solid grey;
                                           margin-top: 10%;
+                                          background-color: rgb(120, 120, 120);
                                         }
 
                                         .answer-info p {
                                           display: flex;
-                                          justify-content: center;
+                                          justify-content: flex-start;
                                           align-items: center;
-                                          height: 28%;
+                                          height: 15%;
                                           width: 78%;
-                                          box-sizing: border-box;
-                                          border: 1px solid grey;
                                           margin-bottom: 10%;
                                         }
 
@@ -287,8 +324,12 @@ h1, h2, h3, p {
                           display: flex;
                           flex-direction: row;
                           justify-content: flex-start;
-                          align-items: center;
+                          align-items: flex-end;
                         }
+
+                                .result-title p {
+                                  margin-bottom: 1.5%;
+                                }
 
                         .result-image {
                           height: 45%;
@@ -316,19 +357,38 @@ h1, h2, h3, p {
                         }
 
                                 .result-button {
-                                  width: 28%;
+                                  width: 32%;
                                   height: 60%;
-                                  box-sizing: border-box;
-                                  border: 1px solid grey;
                                   display: flex;
                                   justify-content: center;
                                   align-items: center;
+                                  box-shadow: 0 0 .2em lightgrey;
+                                }
+
+                                #share-results-facebook {
+                                  background-color: rgb(59, 89, 152);
+                                }
+
+                                #share-results-facebook:hover {
+                                  background-color: rgb(26, 67, 132);
+                                }
+
+                                #share-results-twitter {
+                                  background-color: rgb(85, 172, 238);
+                                }
+
+                                #share-results-twitter:hover {
+                                  background-color: rgb(75, 155, 216);
+                                }
+
+                                #take-again {
+                                  background-color: grey;
+                                  color: white;
                                 }
 
                                 #take-again:hover {
                                   cursor: pointer;
-                                  background-color: grey;
-                                  color: white;
+                                  background-color: rgb(120, 120, 120);
                                 }
 
 /*----------------------------------*/
@@ -336,8 +396,8 @@ h1, h2, h3, p {
 .footer {
   height: 200px;
   width: 100%;
-  box-sizing: border-box;
-  border-top: 1px solid grey;
+  box-shadow: 0 0 1em grey;
+  background-color: white;
 }
 
 

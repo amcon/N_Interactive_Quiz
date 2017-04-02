@@ -43,6 +43,8 @@ $(function() {
       $('.q1').removeClass('q1chosen');
       $(this).addClass('q1chosen');
       $("html, body").animate({ scrollTop: (questionTwoTop.top + 50 )}, "slow");
+      answerArr.pop();
+      answerArr.push($(this).attr("value"));
     }
   });
 
@@ -58,6 +60,8 @@ $(function() {
       $('.q2').removeClass('q2chosen');
       $(this).addClass('q2chosen');
       $("html, body").animate({ scrollTop: (questionThreeTop.top + 50 )}, "slow");
+      answerArr.pop();
+      answerArr.push($(this).attr("value"));
     }
   });
 
@@ -73,6 +77,8 @@ $(function() {
       $('.q3').removeClass('q3chosen');
       $(this).addClass('q3chosen');
       $("html, body").animate({ scrollTop: (questionFourTop.top + 50 )}, "slow");
+      answerArr.pop();
+      answerArr.push($(this).attr("value"));
     }
   });
 
@@ -88,6 +94,8 @@ $(function() {
       $('.q4').removeClass('q4chosen');
       $(this).addClass('q4chosen');
       $("html, body").animate({ scrollTop: (questionFiveTop.top + 50 )}, "slow");
+      answerArr.pop();
+      answerArr.push($(this).attr("value"));
     }
   });
 
@@ -103,6 +111,8 @@ $(function() {
       $('.q5').removeClass('q5chosen');
       $(this).addClass('q5chosen');
       $("html, body").animate({ scrollTop: (questionSixTop.top + 50 )}, "slow");
+      answerArr.pop();
+      answerArr.push($(this).attr("value"));
     }
   });
 
@@ -118,6 +128,8 @@ $(function() {
       $('.q6').removeClass('q6chosen');
       $(this).addClass('q6chosen');
       $("html, body").animate({ scrollTop: (questionSevenTop.top + 50 )}, "slow");
+      answerArr.pop();
+      answerArr.push($(this).attr("value"));
     }
   });
 
@@ -133,6 +145,8 @@ $(function() {
       $('.q7').removeClass('q7chosen');
       $(this).addClass('q7chosen');
       $("html, body").animate({ scrollTop: (questionEightTop.top + 50 )}, "slow");
+      answerArr.pop();
+      answerArr.push($(this).attr("value"));
     }
   });
 
@@ -149,6 +163,8 @@ $(function() {
       $('.q8').removeClass('q8chosen');
       $(this).addClass('q8chosen');
       $("html, body").animate({ scrollTop: (answerTop.top + 50 )}, "slow");
+      answerArr.pop();
+      answerArr.push($(this).attr("value"));
     }
   });
 
