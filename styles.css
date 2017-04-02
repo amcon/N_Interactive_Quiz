@@ -316,6 +316,7 @@ h1, h2, h3, p {
                   transition: 0.5s;
                   position: fixed;
                   top: 15px;
+                  z-index: 2;
                 }
 
                 .finished {
