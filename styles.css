@@ -569,14 +569,13 @@ and (orientation: portrait) {
 }
 
 .finished {
-  height: 1300px;
+  height: 1200px;
 }
 
 .result {
   width: 90%;
   left: 5%;
   top: 300px;
-  height: 1200px;
 }
 
 .result h1 {
@@ -639,14 +638,13 @@ and (orientation: portrait) {
 }
 
 .finished {
-  height: 1300px;
+  height: 1200px;
 }
 
 .result {
   width: 90%;
   left: 5%;
   top: 300px;
-  height: 1200px;
 }
 
 .result h1 {
@@ -709,14 +707,13 @@ and (orientation: portrait) {
 }
 
 .finished {
-  height: 1300px;
+  height: 1200px;
 }
 
 .result {
   width: 90%;
   left: 5%;
   top: 300px;
-  height: 1200px;
 }
 
 .result h1 {
