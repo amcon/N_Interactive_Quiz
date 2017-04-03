@@ -135,6 +135,11 @@ p {
           align-items: center;
         }
 
+                .info h1 {
+                  font-family: Verdana;
+                  font-weight: bold;
+                }
+
                 .info p {
                   font-size: 14px;
                   line-height: 20px;
