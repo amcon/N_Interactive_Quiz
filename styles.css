@@ -707,6 +707,10 @@ and (orientation: landscape) {
   left: 25%;
 }
 
+.result-description p {
+  font-size: 13px;
+}
+
 }
 
 @media only screen
@@ -790,6 +794,10 @@ and (orientation: landscape) {
   left: 25%;
 }
 
+.result-description p {
+  font-size: 13px;
+}
+
 }
 
 @media only screen
@@ -871,6 +879,10 @@ and (orientation: landscape) {
 .finished {
   height: 520px;
   left: 25%;
+}
+
+.result-description p {
+  font-size: 13px;
 }
 
 }
