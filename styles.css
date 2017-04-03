@@ -576,6 +576,11 @@ and (orientation: portrait) {
   width: 90%;
   left: 5%;
   top: 300px;
+  justify-content: space-between;
+}
+
+.result-description {
+  height: 30%;
 }
 
 .result h1 {
@@ -645,6 +650,11 @@ and (orientation: portrait) {
   width: 90%;
   left: 5%;
   top: 300px;
+  justify-content: space-between;
+}
+
+.result-description {
+  height: 30%;
 }
 
 .result h1 {
@@ -714,6 +724,11 @@ and (orientation: portrait) {
   width: 90%;
   left: 5%;
   top: 300px;
+  justify-content: space-between;
+}
+
+.result-description {
+  height: 30%;
 }
 
 .result h1 {
