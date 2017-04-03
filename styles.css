@@ -42,6 +42,8 @@ h1, h2, h3, h4, p {
           align-items: center;
           background-color: rgb(197, 26, 71);
           box-shadow: 0 0 .5em grey;
+          position: relative;
+          z-index: 4;
         }
 
                 .logo {
