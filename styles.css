@@ -575,7 +575,20 @@ and (orientation: portrait) {
 .result {
   width: 90%;
   left: 5%;
-  top: 200px;
+  top: 300px;
+  height: 1200px;
+}
+
+.result h1 {
+  font-size: 45px;
+}
+
+.result p {
+  font-size: 30px;
+}
+
+.result-image {
+  height: 40%;
 }
 
 }
@@ -632,7 +645,20 @@ and (orientation: portrait) {
 .result {
   width: 90%;
   left: 5%;
-  top: 200px;
+  top: 300px;
+  height: 1200px;
+}
+
+.result h1 {
+  font-size: 45px;
+}
+
+.result p {
+  font-size: 30px;
+}
+
+.result-image {
+  height: 40%;
 }
 
 }
@@ -689,7 +715,20 @@ and (orientation: portrait) {
 .result {
   width: 90%;
   left: 5%;
-  top: 200px;
+  top: 300px;
+  height: 1200px;
+}
+
+.result h1 {
+  font-size: 45px;
+}
+
+.result p {
+  font-size: 30px;
+}
+
+.result-image {
+  height: 40%;
 }
 
 }
