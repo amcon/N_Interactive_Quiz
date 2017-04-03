@@ -71,13 +71,13 @@ h1, h2, h3, h4, p {
 
                 .line {
                   height: 6px;
-                  width: 60%;
+                  width: 85%;
                   background-color: rgb(197, 26, 71);
                   margin: 2% 0;
                 }
 
                 .header-info p {
-                  font-size: 20px;
+                  font-size: 15px;
                 }
 
         .nav {
@@ -115,7 +115,7 @@ h1, h2, h3, h4, p {
 }
 
         .info {
-          height: 80%;
+          height: 85%;
           width: 47.5%;
           display: flex;
           flex-direction: column;
@@ -123,8 +123,13 @@ h1, h2, h3, h4, p {
           align-items: center;
         }
 
+                .info p {
+                  font-size: 14px;
+                  line-height: 20px;
+                }
+
                 .share-quiz {
-                  height: 28%;
+                  height: 25%;
                   width: 100%;
                   display: flex;
                   flex-direction: row;
