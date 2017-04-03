@@ -704,6 +704,7 @@ and (orientation: landscape) {
 
 .finished {
   height: 520px;
+  left: 25%;
 }
 
 }
@@ -786,6 +787,7 @@ and (orientation: landscape) {
 
 .finished {
   height: 520px;
+  left: 25%;
 }
 
 }
@@ -868,6 +870,7 @@ and (orientation: landscape) {
 
 .finished {
   height: 520px;
+  left: 25%;
 }
 
 }
@@ -880,6 +883,7 @@ and (orientation: landscape) {
 .finished {
   height: 650px;
   margin-top: 5%;
+  left: 25%;
 }
 
 }
@@ -892,6 +896,7 @@ and (orientation: landscape) {
 .finished {
   height: 800px;
   margin-top: 7%;
+  left: 25%;
 }
 
 }
