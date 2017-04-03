@@ -224,12 +224,40 @@ p {
           align-items: center;
         }
 
-        #q1 {
+        #quiz-start {
           margin-top: 0;
         }
 
+        #q1 {
+          background-color: rgb(24, 191, 247);
+        }
+
+        #q2 {
+          background-color: rgb(55, 242, 80);
+        }
+
+        #q3 {
+          background-color: rgb(237, 106, 215);
+        }
+
+        #q4 {
+          background-color: rgb(235, 242, 53);
+        }
+
+        #q5 {
+          background-color: rgb(237, 175, 52);
+        }
+
+        #q6 {
+          background-color: rgb(244, 58, 34);
+        }
+
+        #q7 {
+          background-color: rgb(176, 55, 232);
+        }
+
         #q8 {
-          margin-bottom: 100px;
+          background-color: rgb(88, 212, 239);
         }
 
                 .question {
@@ -242,9 +270,9 @@ p {
                   text-align: center;
                   margin-bottom: 2.5%;
                   box-shadow: 0 0 .2em grey;
-                  background-image: url('images/car.jpg');
-                  background-size: 100%;
                   color: white;
+                  background-image: url('images/car.jpg');
+                  background-size: 100%
                 }
 
                         .question h2 {
@@ -274,41 +302,77 @@ p {
                           align-items: center;
                         }
 
-                        .answer:hover {
-                          background-color: rgb(200, 200, 200);
+                        .q1:hover {
+                          background-color: rgba(24, 191, 247, .3);
+                          cursor: pointer;
+                        }
+
+                        .q2:hover {
+                          background-color: rgba(55, 242, 80, .3);
+                          cursor: pointer;
+                        }
+
+                        .q3:hover {
+                          background-color: rgba(237, 106, 215, .3);
+                          cursor: pointer;
+                        }
+
+                        .q4:hover {
+                          background-color: rgba(235, 242, 53, .3);
+                          cursor: pointer;
+                        }
+
+                        .q5:hover {
+                          background-color: rgba(237, 175, 52, .3);
+                          cursor: pointer;
+                        }
+
+                        .q6:hover {
+                          background-color: rgba(244, 58, 34, .3);
+                          cursor: pointer;
+                        }
+
+                        .q7:hover {
+                          background-color: rgba(176, 55, 232, .3);
+                          cursor: pointer;
+                        }
+
+                        .q8:hover {
+                          background-color: rgba(88, 212, 239, .3);
                           cursor: pointer;
                         }
 
                         .q1chosen {
-                          background-color: rgb(200, 200, 200);
+                          background-color: rgba(24, 191, 247, .3);
                         }
 
                         .q2chosen {
-                          background-color: rgb(200, 200, 200);
+                          background-color: rgba(55, 242, 80, .3);
                         }
 
                         .q3chosen {
-                          background-color: rgb(200, 200, 200);
+
+                          background-color: rgba(237, 106, 215, .3);
                         }
 
                         .q4chosen {
-                          background-color: rgb(200, 200, 200);
+                          background-color: rgba(235, 242, 53, .3);
                         }
 
                         .q5chosen {
-                          background-color: rgb(200, 200, 200);
+                          background-color: rgba(237, 175, 52, .3);
                         }
 
                         .q6chosen {
-                          background-color: rgb(200, 200, 200);
+                          background-color: rgba(244, 58, 34, .3);
                         }
 
                         .q7chosen {
-                          background-color: rgb(200, 200, 200);
+                          background-color: rgba(176, 55, 232, .3);
                         }
 
                         .q8chosen {
-                          background-color: rgb(200, 200, 200);
+                          background-color: rgba(88, 212, 239, .3);
                         }
 
                                 .answer-info {
@@ -338,6 +402,10 @@ p {
                                           height: 15%;
                                           width: 78%;
                                           margin-bottom: 5%;
+                                        }
+
+                                        #quiz-bottom {
+                                          margin-bottom: 100px;
                                         }
 
                 .result {
@@ -634,6 +702,10 @@ and (min-device-width : 414px)
 and (max-device-width : 736px)
 and (orientation: landscape) {
 
+.finished {
+  height: 520px;
+}
+
 }
 
 @media only screen
@@ -711,6 +783,10 @@ and (orientation: portrait) {
 and (min-device-width : 375px)
 and (max-device-width : 667px)
 and (orientation: landscape) {
+
+.finished {
+  height: 520px;
+}
 
 }
 
@@ -790,6 +866,82 @@ and (min-device-width : 320px)
 and (max-device-width : 568px)
 and (orientation: landscape) {
 
+.finished {
+  height: 520px;
 }
 
+}
+
+@media only screen
+and (min-device-width : 900px)
+and (max-device-width : 1025px)
+and (orientation: landscape) {
+
+.finished {
+  height: 650px;
+  margin-top: 5%;
+}
+
+}
+
+@media only screen
+and (min-device-width : 1300px)
+and (max-device-width : 1400px)
+and (orientation: landscape) {
+
+.finished {
+  height: 800px;
+  margin-top: 7%;
+}
+
+}
+
+
+
+@media only screen
+and (min-device-width : 1800px)
+and (max-device-width : 2200px) {
+
+.question-box {
+  height: 1200px;
+}
+
+}
+
+@media only screen
+and (min-device-width : 2200px)
+and (max-device-width : 2600px) {
+
+.question-box {
+  height: 1600px;
+}
+
+}
+
+@media only screen
+and (min-device-width : 2600px)
+and (max-device-width : 2800px) {
+
+.question-box {
+  height: 1600px;
+}
+
+.line {
+  margin: 1% 0;
+}
+
+}
+
+@media only screen
+and (min-device-width : 2800px) {
+
+.question-box {
+  height: 2000px;
+}
+
+.line {
+  margin: 1% 0;
+}
+
+}
 
