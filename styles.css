@@ -543,6 +543,15 @@ and (orientation: portrait) {
   height: 500px;
 }
 
+.info h1 {
+  font-size: 40px;
+}
+
+.info p {
+  font-size: 25px;
+  line-height: 25px;
+}
+
 .question-box {
   width: 100%;
 }
@@ -591,6 +600,15 @@ and (orientation: portrait) {
   height: 500px;
 }
 
+.info h1 {
+  font-size: 40px;
+}
+
+.info p {
+  font-size: 25px;
+  line-height: 25px;
+}
+
 .question-box {
   width: 100%;
 }
@@ -637,6 +655,15 @@ and (orientation: portrait) {
 
 .info-box {
   height: 500px;
+}
+
+.info h1 {
+  font-size: 40px;
+}
+
+.info p {
+  font-size: 25px;
+  line-height: 25px;
 }
 
 .question-box {
