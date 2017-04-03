@@ -576,7 +576,7 @@ and (orientation: portrait) {
 .result {
   width: 90%;
   left: 5%;
-  top: 300px;
+  top: 250px;
   justify-content: space-between;
 }
 
@@ -650,7 +650,7 @@ and (orientation: portrait) {
 .result {
   width: 90%;
   left: 5%;
-  top: 300px;
+  top: 250px;
   justify-content: space-between;
 }
 
@@ -724,7 +724,7 @@ and (orientation: portrait) {
 .result {
   width: 90%;
   left: 5%;
-  top: 300px;
+  top: 250px;
   justify-content: space-between;
 }
 
