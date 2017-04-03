@@ -233,7 +233,7 @@ $(function() {
       $('.result-image').addClass('car-image');
       $('.result-title').append('<h1>NISSAN NUMBER 5</h1>');
       $('.result-description').append("<p>This is the Nissan model that was selected based on your answers. This is an incredible car. You'll want to learn more about it. Promise. Thanks for taking the quiz. You rock! This is the Nissan model that was selected based on your answers. This is an incredible car. You'll want to learn more about it. Promise. Thanks for taking the quiz. You rock!</p>");
-    } else if (completedCounter === 8 && max === 6) {
+    } else if (completedCounter >= 8 && max === 6) {
       $('.result').addClass('finished');
       $('.result-image').addClass('car-image');
       $('.result-title').append('<h1>NISSAN NUMBER 6</h1>');
@@ -260,11 +260,11 @@ $(function() {
   });
 
   $('#share-quiz-twitter').click(function() {
-    window.open("https://twitter.com/intent/tweet?url=https://amcon.github.io/N_Interactive_Quiz&text=Check out this quiz!");
+    window.open("https://twitter.com/intent/tweet?url=https://amcon.github.io/N_Interactive_Quiz&text=Check out this quiz!", "_blank");
   })
 
   $('#share-quiz-pinterest').click(function() {
-    window.open("https://www.pinterest.com/pin/create/button/?url=https://amcon.github.io/N_Interactive_Quiz&media=http://images.hgmsites.net/med/2014-nissan-rogue_100439768_m.jpg&description=Check out this quiz!")
+    window.open("https://www.pinterest.com/pin/create/button/?url=https://amcon.github.io/N_Interactive_Quiz&media=http://images.hgmsites.net/med/2014-nissan-rogue_100439768_m.jpg&description=Check out this quiz!", "_blank")
   })
 
 });
