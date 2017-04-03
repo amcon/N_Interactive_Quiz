@@ -260,11 +260,11 @@ $(function() {
   });
 
   $('#share-quiz-twitter').click(function() {
-    window.open("https://twitter.com/intent/tweet?url=https://amcon.github.io/N_Interactive_Quiz&text=Check out this quiz!", "_blank");
+    window.open("https://twitter.com/intent/tweet?url=https://amcon.github.io/N_Interactive_Quiz&text=Check out this quiz!");
   })
 
   $('#share-quiz-pinterest').click(function() {
-    window.open("https://www.pinterest.com/pin/create/button/?url=https://amcon.github.io/N_Interactive_Quiz&media=http://images.hgmsites.net/med/2014-nissan-rogue_100439768_m.jpg&description=Check out this quiz!", "_blank")
+    window.open("https://www.pinterest.com/pin/create/button/?url=https://amcon.github.io/N_Interactive_Quiz&media=http://images.hgmsites.net/med/2014-nissan-rogue_100439768_m.jpg&description=Check out this quiz!")
   })
 
 });
