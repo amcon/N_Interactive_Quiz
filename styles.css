@@ -31,7 +31,7 @@ p {
   display: flex;
   flex-direction: row;
   background-color: #FAFAFA;
-  box-shadow: 0 0 .5em grey;
+  box-shadow: 0 0 .5em lightgrey;
   position: relative;
   z-index: 1;
 }
@@ -50,17 +50,18 @@ p {
           margin: 0 5% 0 2.5%;
           display: flex;
           justify-content: center;
-          align-items: center;
-          background-color: rgb(197, 26, 71);
-          box-shadow: 0 0 .5em grey;
+          align-items: flex-start;
+          background-color: rgb(195, 0, 47);
+          box-shadow: 0 0 .5em lightgrey;
         }
 
                 .logo {
-                  height: 45%;
-                  width: 65%;
+                  height: 55%;
+                  width: 82%;
                   background-image: url('images/nissan-logo-temp.png');
                   background-size: 100%;
                   background-repeat: no-repeat;
+                  margin-top: 7.5%;
                 }
 
                 .logo:hover {
@@ -83,8 +84,8 @@ p {
                 .line {
                   height: 6px;
                   width: 70%;
-                  background-color: rgb(197, 26, 71);
-                  margin: 2% 0;
+                  background-color: rgb(195, 0, 47);
+                  margin: 1% 0;
                 }
 
                 .header-info p {
@@ -123,7 +124,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(220, 220, 220);
+  background-color: rgb(235, 235, 235);
 }
 
         .info {
@@ -157,7 +158,7 @@ p {
                         .share {
                           height: 50%;
                           width: 24.5%;
-                          box-shadow: 0 0 .2em grey;
+                          box-shadow: 0 0 .2em lightgrey;
                           display: flex;
                           justify-content: center;
                           align-items: center;
@@ -192,7 +193,7 @@ p {
                         }
 
                         #share-quiz-email {
-                          background-color: grey;
+                          background-color: lightgrey;
                         }
 
                         #share-quiz-email:hover {
@@ -211,7 +212,7 @@ p {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-color: rgb(220, 220, 220);
+  background-color: rgb(235, 235, 235);
 }
 
         .question-box {
@@ -269,7 +270,7 @@ p {
                   align-items: center;
                   text-align: center;
                   margin-bottom: 2.5%;
-                  box-shadow: 0 0 .2em grey;
+                  box-shadow: 0 0 .2em lightgrey;
                   color: white;
                   background-image: url('images/car.jpg');
                   background-size: 100%
@@ -380,12 +381,12 @@ p {
                                   width: 90%;
                                   background-color: #FAFAFA;
                                   box-sizing: border-box;
-                                  border: 1px solid grey;
+                                  border: 1px solid lightgrey;
                                   display: flex;
                                   flex-direction: column;
                                   justify-content: space-between;
                                   align-items: center;
-                                  box-shadow: 0 0 .2em grey;
+                                  box-shadow: 0 0 .2em lightgrey;
                                 }
 
                                         .answer-info img {
@@ -420,7 +421,7 @@ p {
                   position: fixed;
                   top: 15px;
                   z-index: 2;
-                  box-shadow: 0 0 .5em grey;
+                  box-shadow: 0 0 .5em lightgrey;
                 }
 
                 .finished {
@@ -445,7 +446,7 @@ p {
                         .result-image {
                           height: 50%;
                           width: 95%;
-                          box-shadow: 0 0 .2em grey;
+                          box-shadow: 0 0 .2em lightgrey;
                         }
 
                         .leaf-image {
@@ -532,7 +533,7 @@ p {
                                 }
 
                                 #take-again {
-                                  background-color: grey;
+                                  background-color: lightgrey;
                                   color: white;
                                 }
 
@@ -549,8 +550,8 @@ p {
 
 .footer {
   width: 100%;
-  box-shadow: 0 0 1em grey;
-  background-color: rgb(40, 40, 40);
+  box-shadow: 0 0 1em lightgrey;
+  background-color: rgb(76, 76, 76);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -582,7 +583,7 @@ p {
                   font-size: 13px;
                   color: #FAFAFA;
                   font-weight: lighter;
-                  margin-bottom: 30px;
+                  margin-bottom: 20px;
                 }
 
                 .links p {
@@ -944,7 +945,7 @@ and (max-device-width : 2800px) {
 }
 
 .line {
-  margin: 1% 0;
+  margin: .5% 0;
 }
 
 }
@@ -957,7 +958,7 @@ and (min-device-width : 2800px) {
 }
 
 .line {
-  margin: 1% 0;
+  margin: .5% 0;
 }
 
 }
