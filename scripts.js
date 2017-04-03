@@ -152,7 +152,7 @@ $(function() {
     if (q8clickedOnce === false) {
       $('.q8').removeClass('q8chosen');
       $(this).addClass('q8chosen');
-      $("html, body").animate({ scrollTop: (answerTop.top + 50 )}, "slow");
+      $("html, body").animate({ scrollTop: 0 }, "slow");
       updateCounter();
       q8clickedOnce = true;
       answerArr.push($(this).attr("value"));
@@ -160,7 +160,7 @@ $(function() {
     } else {
       $('.q8').removeClass('q8chosen');
       $(this).addClass('q8chosen');
-      $("html, body").animate({ scrollTop: (answerTop.top + 50 )}, "slow");
+      $("html, body").animate({ scrollTop: 0 }, "slow");
       answerArr.pop();
       answerArr.push($(this).attr("value"));
     }
