@@ -90,6 +90,7 @@ h1, h2, h3, h4, p {
           flex-direction: row;
           justify-content: flex-end;
           align-items: center;
+          opacity: 0;
         }
 
                 .nav p {
