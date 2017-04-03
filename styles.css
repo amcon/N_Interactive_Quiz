@@ -7,7 +7,18 @@ body {
   background-color: rgb(40, 40, 40);
 }
 
-h1, h2, h3, h4, p {
+@font-face {
+  font-family: "Nissan Font";
+  src: url('Nissan-Regular.ttf') format("truetype");
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  font-family: "Nissan Font", Verdana;
+  font-weight: lighter;
+}
+
+p {
   margin: 0;
   font-family: Verdana;
 }
@@ -221,8 +232,9 @@ h1, h2, h3, h4, p {
                   width: 80%;
                   display: flex;
                   flex-direction: column;
-                  justify-content: flex-start;
-                  align-items: flex-start;
+                  justify-content: center;
+                  align-items: center;
+                  text-align: center;
                   margin-bottom: 2.5%;
                   box-shadow: 0 0 .2em grey;
                   background-image: url('images/car.jpg');
@@ -232,6 +244,10 @@ h1, h2, h3, h4, p {
 
                         .question h2 {
                           margin: 5%;
+                          font-family: Verdana;
+                          font-weight: bold;
+                          font-size: 38px;
+                          text-shadow: 0 0 .1em black;
                         }
 
                 .answer-box {
