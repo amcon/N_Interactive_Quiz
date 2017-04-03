@@ -208,36 +208,36 @@ $(function() {
   }
 
   function appendResult() {
-    if (completedCounter === 8 && max === 1) {
+    if (completedCounter >= 8 && max === 1) {
       $('.result').addClass('finished');
-      $('.result-image').addClass('car-image');
-      $('.result-title').append('<h1>NISSAN NUMBER 1</h1>');
-      $('.result-description').append("<p>This is the Nissan model that was selected based on your answers. This is an incredible car. You'll want to learn more about it. Promise. Thanks for taking the quiz. You rock! This is the Nissan model that was selected based on your answers. This is an incredible car. You'll want to learn more about it. Promise. Thanks for taking the quiz. You rock!</p>");
-    } else if (completedCounter === 8 && max === 2) {
+      $('.result-image').addClass('leaf-image');
+      $('.result-title').append('<h1>NISSAN LEAF</h1>');
+      $('.result-description').append("<p>It'll now go up to 107 miles on a single charge. Thanks to constantly advancing technology and development of a newly standard 30 KWH battery, America's Best-Selling electric vehicle now has it's best range ever.</p>");
+    } else if (completedCounter >= 8 && max === 2) {
       $('.result').addClass('finished');
-      $('.result-image').addClass('car-image');
-      $('.result-title').append('<h1>NISSAN NUMBER 2</h1>');
-      $('.result-description').append("<p>This is the Nissan model that was selected based on your answers. This is an incredible car. You'll want to learn more about it. Promise. Thanks for taking the quiz. You rock! This is the Nissan model that was selected based on your answers. This is an incredible car. You'll want to learn more about it. Promise. Thanks for taking the quiz. You rock!</p>");
-    } else if (completedCounter === 8 && max === 3) {
+      $('.result-image').addClass('note-image');
+      $('.result-title').append('<h1>NISSAN NOTE e-POWER</h1>');
+      $('.result-description').append("<p>The new drive system, e-POWER, is a 100% electric powertrain, making a clear distinction compared with conventional power units. The wheels of the Note e-Power are completely driven by the electric motor powered by the gasoline engine. Thanks to this full-electric motor drive system, drivers can enjoy the powerful, responsive acceleration and excellent quietness in various scenes and driving environments.</p>");
+    } else if (completedCounter >= 8 && max === 3) {
       $('.result').addClass('finished');
-      $('.result-image').addClass('car-image');
-      $('.result-title').append('<h1>NISSAN NUMBER 3</h1>');
-      $('.result-description').append("<p>This is the Nissan model that was selected based on your answers. This is an incredible car. You'll want to learn more about it. Promise. Thanks for taking the quiz. You rock! This is the Nissan model that was selected based on your answers. This is an incredible car. You'll want to learn more about it. Promise. Thanks for taking the quiz. You rock!</p>");
-    } else if (completedCounter === 8 && max === 4) {
+      $('.result-image').addClass('gtr-image');
+      $('.result-title').append('<h1>NISSAN G-T-R</h1>');
+      $('.result-description').append("<p>Nissan unveiled the new 2017 GT-R, highlighted by a fresh look inside and out, as well as major driving performance enhancements and key new features. All told, this is the most significant change to Nissan's flagship super sports car since it was introduced in 2007. The 2017 GT-R's exterior receives a thorough makeover. The new 'V-motion' grille, one of Nissan's latest design signatures, has been slightly enlarged to provide better engine cooling.</p>");
+    } else if (completedCounter >= 8 && max === 4) {
       $('.result').addClass('finished');
-      $('.result-image').addClass('car-image');
-      $('.result-title').append('<h1>NISSAN NUMBER 4</h1>');
-      $('.result-description').append("<p>This is the Nissan model that was selected based on your answers. This is an incredible car. You'll want to learn more about it. Promise. Thanks for taking the quiz. You rock! This is the Nissan model that was selected based on your answers. This is an incredible car. You'll want to learn more about it. Promise. Thanks for taking the quiz. You rock!</p>");
-    } else if (completedCounter === 8 && max === 5) {
+      $('.result-image').addClass('sofc-image');
+      $('.result-title').append('<h1>NISSAN SOFC</h1>');
+      $('.result-description').append("<p>Research and development of the e-Bio Fuel-Cell was announced by Nissan in June in Yokohama. The powertrain is clean, highly efficient, easy to supply, and it runs on 100-percent ethanol or ethanol-blended water. Its carbon-neutral emissions are as clean as the atmosphere, which will be the part of natural carbon cycle. Also, the e-Bio Fuel-Cell offers the brisk acceleration and silent driving of an EV, along with its low-running costs, while boasting the driving range of a gasoline-engine vehicle.</p>");
+    } else if (completedCounter >= 8 && max === 5) {
       $('.result').addClass('finished');
-      $('.result-image').addClass('car-image');
-      $('.result-title').append('<h1>NISSAN NUMBER 5</h1>');
-      $('.result-description').append("<p>This is the Nissan model that was selected based on your answers. This is an incredible car. You'll want to learn more about it. Promise. Thanks for taking the quiz. You rock! This is the Nissan model that was selected based on your answers. This is an incredible car. You'll want to learn more about it. Promise. Thanks for taking the quiz. You rock!</p>");
+      $('.result-image').addClass('rogue-image');
+      $('.result-title').append("<h1>NISSAN ROGUE HYBRID</h1>");
+      $('.result-description').append("<p>Equipped with the 2.0-liter MR20DD hybrid engine that enables both driving and environmental performance, the new X-Trail Hybrid delivers a comfortable driving experience with its powerful acceleration and remarkable quietness, which eclipse those of typical 2.5-liter gasoline engines. In addition, all the grades achieve tax exemptions. In addition, the new X-Trail Hybrid will have Forward Emergency Braking as standard equipment, expanding its safety technology features.</p>");
     } else if (completedCounter >= 8 && max === 6) {
       $('.result').addClass('finished');
-      $('.result-image').addClass('car-image');
-      $('.result-title').append('<h1>NISSAN NUMBER 6</h1>');
-      $('.result-description').append("<p>This is the Nissan model that was selected based on your answers. This is an incredible car. You'll want to learn more about it. Promise. Thanks for taking the quiz. You rock! This is the Nissan model that was selected based on your answers. This is an incredible car. You'll want to learn more about it. Promise. Thanks for taking the quiz. You rock!</p>");
+      $('.result-image').addClass('bladeglider-image');
+      $('.result-title').append('<h1>NISSAN BLADEGLIDER</h1>');
+      $('.result-description').append("<p>The debut of the Nissan Bladeglider prototypes forms part of Nissan's on-going commitment to the development of zero-emission vehicles and new automotive technologies including autonomous drive systems and connectivity. Nissan already sells the world's highest-volume zero-emission car, the LEAF, and is pioneering Intelligent Mobility systems that will be deployed in a range of vehicles over coming years.</p>");
     }
   };
 

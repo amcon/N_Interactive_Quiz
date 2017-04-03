@@ -345,9 +345,34 @@ h1, h2, h3, h4, p {
                           box-shadow: 0 0 .2em grey;
                         }
 
-                        .car-image {
-                          background-image: url('images/stock-car-result.jpg');
-                          background-size: 100%;
+                        .leaf-image {
+                          background-image: url('images/nissan-leaf.jpg');
+                          background-size: 100% 100%;
+                        }
+
+                        .note-image {
+                          background-image: url('images/nissan-note.jpg');
+                          background-size: 100% 100%;
+                        }
+
+                        .gtr-image {
+                          background-image: url('images/nissan-gtr.jpg');
+                          background-size: 100% 100%;
+                        }
+
+                        .sofc-image {
+                          background-image: url('images/nissan-sofc.jpg');
+                          background-size: 100% 100%;
+                        }
+
+                        .rogue-image {
+                          background-image: url('images/nissan-rogue.jpg');
+                          background-size: 100% 100%;
+                        }
+
+                        .bladeglider-image {
+                          background-image: url('images/nissan-bladeglider.jpg');
+                          background-size: 100% 100%;
                         }
 
                         .result-description {
