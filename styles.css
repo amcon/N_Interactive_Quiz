@@ -636,7 +636,7 @@ and (orientation: portrait) {
 }
 
 .info {
-  width: 90%;
+  width: 95%;
 }
 
 .info-box {
@@ -657,7 +657,7 @@ and (orientation: portrait) {
 }
 
 .question {
-  width: 90%;
+  width: 95%;
 }
 
 .question-box {
@@ -665,7 +665,7 @@ and (orientation: portrait) {
 }
 
 .answer-box {
-  width: 93%;
+  width: 97.5%;
 }
 
 .finished {
@@ -723,7 +723,7 @@ and (orientation: portrait) {
 }
 
 .info {
-  width: 90%;
+  width: 95%;
 }
 
 .info-box {
@@ -744,7 +744,7 @@ and (orientation: portrait) {
 }
 
 .question {
-  width: 90%;
+  width: 95%;
 }
 
 .question-box {
@@ -752,7 +752,7 @@ and (orientation: portrait) {
 }
 
 .answer-box {
-  width: 93%;
+  width: 97.5%;
 }
 
 .finished {
@@ -810,7 +810,7 @@ and (orientation: portrait) {
 }
 
 .info {
-  width: 90%;
+  width: 95%;
 }
 
 .info-box {
@@ -831,7 +831,7 @@ and (orientation: portrait) {
 }
 
 .question {
-  width: 90%;
+  width: 95%;
 }
 
 .question-box {
@@ -839,7 +839,7 @@ and (orientation: portrait) {
 }
 
 .answer-box {
-  width: 93%;
+  width: 97.5%;
 }
 
 .finished {
