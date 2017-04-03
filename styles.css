@@ -25,6 +25,14 @@ h1, h2, h3, h4, p {
   z-index: 1;
 }
 
+        #quiz-pic {
+          position: absolute;
+          width: 50%;
+          z-index: -1;
+          top: 0;
+          left: 0;
+        }
+
         .logo-box {
           height: 115%;
           width: 15%;
