@@ -71,7 +71,7 @@ h1, h2, h3, h4, p {
 
                 .line {
                   height: 6px;
-                  width: 85%;
+                  width: 70%;
                   background-color: rgb(197, 26, 71);
                   margin: 2% 0;
                 }
@@ -536,6 +536,10 @@ and (min-device-width : 414px)
 and (max-device-width : 736px)
 and (orientation: portrait) {
 
+.line {
+  width: 80%;
+}
+
 .info {
   width: 90%;
 }
@@ -610,6 +614,10 @@ and (min-device-width : 375px)
 and (max-device-width : 667px)
 and (orientation: portrait) {
 
+.line {
+  width: 80%;
+}
+
 .info {
   width: 90%;
 }
@@ -683,6 +691,10 @@ and (orientation: landscape) {
 and (min-device-width : 320px)
 and (max-device-width : 568px)
 and (orientation: portrait) {
+
+.line {
+  width: 80%;
+}
 
 .info {
   width: 90%;
