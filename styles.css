@@ -541,6 +541,8 @@ and (orientation: portrait) {
 
 .info-box {
   height: 500px;
+  position: relative;
+  z-index: 3;
 }
 
 .info h1 {
@@ -598,6 +600,8 @@ and (orientation: portrait) {
 
 .info-box {
   height: 500px;
+  position: relative;
+  z-index: 3;
 }
 
 .info h1 {
@@ -655,6 +659,8 @@ and (orientation: portrait) {
 
 .info-box {
   height: 500px;
+  position: relative;
+  z-index: 3;
 }
 
 .info h1 {
