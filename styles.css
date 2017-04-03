@@ -361,32 +361,38 @@ h1, h2, h3, h4, p {
 
                         .leaf-image {
                           background-image: url('images/nissan-leaf.jpg');
-                          background-size: 100% 100%;
+                          background-size: 100%;
+                          background-repeat: no-repeat;
                         }
 
                         .note-image {
                           background-image: url('images/nissan-note.jpg');
-                          background-size: 100% 100%;
+                          background-size: 100%;
+                          background-repeat: no-repeat;
                         }
 
                         .gtr-image {
                           background-image: url('images/nissan-gtr.jpg');
-                          background-size: 100% 100%;
+                          background-size: 100%;
+                          background-repeat: no-repeat;
                         }
 
                         .sofc-image {
                           background-image: url('images/nissan-sofc.jpg');
-                          background-size: 100% 100%;
+                          background-size: 100%;
+                          background-repeat: no-repeat;
                         }
 
-                        .rogue-image {
-                          background-image: url('images/nissan-rogue.jpg');
-                          background-size: 100% 100%;
+                        .xtrail-image {
+                          background-image: url('images/nissan-xtrail.jpg');
+                          background-size: 100%;
+                          background-repeat: no-repeat;
                         }
 
                         .bladeglider-image {
                           background-image: url('images/nissan-bladeglider.jpg');
-                          background-size: 100% 100%;
+                          background-size: 100%;
+                          background-repeat: no-repeat;
                         }
 
                         .result-description {

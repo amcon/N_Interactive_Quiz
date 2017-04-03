@@ -230,8 +230,8 @@ $(function() {
       $('.result-description').append("<p>Research and development of the e-Bio Fuel-Cell was announced by Nissan in June in Yokohama. The powertrain is clean, highly efficient, easy to supply, and it runs on 100-percent ethanol or ethanol-blended water. Its carbon-neutral emissions are as clean as the atmosphere, which will be the part of natural carbon cycle. Also, the e-Bio Fuel-Cell offers the brisk acceleration and silent driving of an EV, along with its low-running costs, while boasting the driving range of a gasoline-engine vehicle.</p>");
     } else if (completedCounter >= 8 && max === 5) {
       $('.result').addClass('finished');
-      $('.result-image').addClass('rogue-image');
-      $('.result-title').append("<h1>NISSAN ROGUE HYBRID</h1>");
+      $('.result-image').addClass('xtrail-image');
+      $('.result-title').append("<h1>NISSAN X-TRAIL HYBRID</h1>");
       $('.result-description').append("<p>Equipped with the 2.0-liter MR20DD hybrid engine that enables both driving and environmental performance, the new X-Trail Hybrid delivers a comfortable driving experience with its powerful acceleration and remarkable quietness, which eclipse those of typical 2.5-liter gasoline engines. In addition, all the grades achieve tax exemptions. In addition, the new X-Trail Hybrid will have Forward Emergency Braking as standard equipment, expanding its safety technology features.</p>");
     } else if (completedCounter >= 8 && max === 6) {
       $('.result').addClass('finished');
