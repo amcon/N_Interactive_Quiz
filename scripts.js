@@ -1,5 +1,12 @@
 $(function() {
 
+  let quiz_pic = $('#quiz-pic');
+  let quiz_title = $('#quiz-title').text();
+  let quiz_description = $('#quiz-description').text();
+
+  console.log(quiz_title);
+  console.log(quiz_description);
+
   let questionOneTop = $('#q1').position();
   let questionTwoTop = $('#q2').position();
   let questionThreeTop = $('#q3').position();
@@ -256,6 +263,9 @@ $(function() {
     FB.ui({
       method: 'share',
       href: 'https://amcon.github.io/N_Interactive_Quiz',
+      name: quiz_title,
+      description: quiz_description,
+      image: quiz_pic
     }, function(response){});
   });
 
