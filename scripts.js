@@ -1,6 +1,6 @@
 $(function() {
 
-  let quiz_pic = $('#quiz-pic').getAttribute('src');
+  let quiz_pic = $('#quiz-pic').attr('src');
   let quiz_title = $('#quiz-title').text();
   let quiz_description = $('#quiz-description').text();
 
