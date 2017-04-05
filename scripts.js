@@ -1,11 +1,10 @@
 $(function() {
 
-  let quiz_pic = $('#quiz-pic');
+  let quiz_pic = $('#quiz-pic').getAttribute('src');
   let quiz_title = $('#quiz-title').text();
   let quiz_description = $('#quiz-description').text();
 
-  console.log(quiz_title);
-  console.log(quiz_description);
+  console.log(quiz_pic);
 
   let questionOneTop = $('#q1').position();
   let questionTwoTop = $('#q2').position();
