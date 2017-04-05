@@ -4,23 +4,37 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-color: rgb(40, 40, 40);
+  background-color: rgb(76, 76, 76);
 }
 
 @font-face {
-  font-family: "Nissan Font";
-  src: url('Nissan-Regular.ttf') format("truetype");
+  font-family: "Nissan Brand Bold";
+  src: url('Nissan_Brand_Bold.otf') format("opentype");
 }
 
-h1, h2, h3, h4 {
+@font-face {
+  font-family: "Nissan Brand Regular";
+  src: url('Nissan_Brand_Regular.otf') format("opentype");
+}
+
+@font-face {
+  font-family: "Nissan Brand Light";
+  src: url('Nissan_Brand_Light.otf') format("opentype");
+}
+
+h1 {
   margin: 0;
-  font-family: "Nissan Font", Verdana;
-  font-weight: lighter;
+  font-family: "Nissan Brand Bold", Verdana;
+}
+
+h2, h3, h4 {
+  margin: 0;
+  font-family: "Nissan Brand Regular", Verdana;
 }
 
 p {
   margin: 0;
-  font-family: Verdana;
+  font-family: "Nissan Brand Light", Verdana;
 }
 
 /*----------------------------------*/
@@ -30,7 +44,7 @@ p {
   width: 100%;
   display: flex;
   flex-direction: row;
-  background-color: #FAFAFA;
+  background-color: rgb(255, 255, 255);
   box-shadow: 0 0 .5em lightgrey;
   position: relative;
   z-index: 1;
@@ -46,22 +60,32 @@ p {
 
         .logo-box {
           height: 230px;
-          width: 175px;
-          margin: 0 5% 0 2.5%;
+          width: 185px;
+          margin: 0 0 0 45px;
           display: flex;
-          justify-content: center;
-          align-items: flex-start;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: center;
           background-color: rgb(195, 0, 47);
           box-shadow: 0 0 .5em lightgrey;
+          text-align: center;
+          padding: 5px 5px 0 5px;
         }
 
+                .logo-box h2 {
+                  color: white;
+                  font-size: 18px;
+                  line-height: 20px;
+                  letter-spacing: 1.5px;
+                }
+
                 .logo {
-                  height: 55%;
-                  width: 82%;
+                  height: 140px;
+                  width: 140px;
                   background-image: url('images/nissan-logo-temp.png');
                   background-size: 100%;
                   background-repeat: no-repeat;
-                  margin-top: 7.5%;
+                  margin-top: 35px;
                 }
 
                 .logo:hover {
@@ -70,26 +94,16 @@ p {
 
         .header-info {
           height: 100%;
-          width: 70%;
+          width: 76.5%;
           display: flex;
           flex-direction: column;
-          justify-content: center;
-          align-items: flex-start;
+          justify-content: flex-start;
+          align-items: flex-end;
         }
 
-                .header-info h2 {
-                  font-size: 30px;
-                }
-
-                .line {
-                  height: 6px;
-                  width: 70%;
-                  background-color: rgb(195, 0, 47);
-                  margin: 1% 0;
-                }
-
-                .header-info p {
-                  font-size: 15px;
+                .header-info img {
+                  height: 27px;
+                  margin-top: 87px;
                 }
 
         .nav {
@@ -137,8 +151,6 @@ p {
         }
 
                 .info h1 {
-                  font-family: Verdana;
-                  font-weight: bold;
                   font-size: 30px;
                 }
 
@@ -279,8 +291,6 @@ p {
 
                         .question h2 {
                           margin: 5%;
-                          font-family: Verdana;
-                          font-weight: bold;
                           font-size: 38px;
                           text-shadow: 0 0 .1em black;
                         }
@@ -379,7 +389,7 @@ p {
 
                                 .answer-info {
                                   height: 90%;
-                                  width: 90%;
+                                  width: 93.5%;
                                   background-color: #FAFAFA;
                                   box-sizing: border-box;
                                   border: 1px solid lightgrey;
