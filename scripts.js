@@ -273,7 +273,7 @@ $(function() {
   })
 
   $('#share-quiz-pinterest').click(function() {
-    window.open("https://www.pinterest.com/pin/create/button/?url=https://amcon.github.io/N_Interactive_Quiz&media=http://i.imgur.com/ZVUOUJ6.jpg&title=What new Nissan is designed to fit your personality?&description=Nissan Intelligent Mobility is not about removing humans from the driving experience. Instead, it’s about building a better future for our customers where cars are their partners, helping drivers to become more confident and more connected. We believe that that people would still love to drive by themselves, so our task is to make their driving experience MORE, not less, exciting.");
+    window.open("https://www.pinterest.com/pin/create/button/?url=https://amcon.github.io/N_Interactive_Quiz&media=http://i.imgur.com/ZVUOUJ6.jpg&description=Nissan Intelligent Mobility is not about removing humans from the driving experience. Instead, it’s about building a better future for our customers where cars are their partners, helping drivers to become more confident and more connected. We believe that that people would still love to drive by themselves, so our task is to make their driving experience MORE, not less, exciting.");
   })
 
 });
