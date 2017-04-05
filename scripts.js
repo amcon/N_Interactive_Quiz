@@ -264,7 +264,7 @@ $(function() {
       link: 'https://amcon.github.io/N_Interactive_quiz',
       name: quiz_title,
       description: quiz_description,
-      picture: quiz_pic
+      picture: 'http://i.imgur.com/ZVUOUJ6.jpg'
     }, function(response){});
   });
 
