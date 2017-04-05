@@ -253,7 +253,7 @@ $(function() {
   });
 
   $('#share-quiz-email').click(function() {
-    window.open("mailto:?subject=Based on Your Personality, We'll Tell You Your Perfect Nissan&body=Take this quiz:%0D%0Ahttps://amcon.github.io/N_Interactive_Quiz", "_blank");
+    window.open("mailto:?subject=What new Nissan is designed to fit your personality?&body=Take this quiz:%0D%0Ahttps://amcon.github.io/N_Interactive_Quiz", "_blank");
   });
 
 
@@ -273,7 +273,7 @@ $(function() {
   })
 
   $('#share-quiz-pinterest').click(function() {
-    window.open("https://www.pinterest.com/pin/create/button/?url=https://amcon.github.io/N_Interactive_Quiz&media=http://images.hgmsites.net/med/2014-nissan-rogue_100439768_m.jpg&description=Check out this quiz!")
+    window.open("https://www.pinterest.com/pin/create/button/?url=https://amcon.github.io/N_Interactive_Quiz&media=http://i.imgur.com/ZVUOUJ6.jpg&description=Nissan Intelligent Mobility is not about removing humans from the driving experience. Instead, it’s about building a better future for our customers where cars are their partners, helping drivers to become more confident and more connected. We believe that that people would still love to drive by themselves, so our task is to make their driving experience MORE, not less, exciting.");
   })
 
 });
