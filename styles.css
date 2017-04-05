@@ -4,7 +4,7 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-color: rgb(76, 76, 76);
+  background-color: rgb(0, 0, 0);
 }
 
 @font-face {
@@ -156,6 +156,7 @@ p {
 
                 .info h1 {
                   font-size: 30px;
+                  line-height: 30px;
                 }
 
                 .info p {
@@ -319,7 +320,7 @@ p {
                         }
 
                         .q1:hover {
-                          background-color: rgba(24, 191, 247, .3);
+                          background-color: rgba(55, 242, 80, .3);
                           cursor: pointer;
                         }
 
@@ -329,37 +330,37 @@ p {
                         }
 
                         .q3:hover {
-                          background-color: rgba(237, 106, 215, .3);
+                          background-color: rgba(55, 242, 80, .3);
                           cursor: pointer;
                         }
 
                         .q4:hover {
-                          background-color: rgba(235, 242, 53, .3);
+                          background-color: rgba(55, 242, 80, .3);
                           cursor: pointer;
                         }
 
                         .q5:hover {
-                          background-color: rgba(237, 175, 52, .3);
+                          background-color: rgba(55, 242, 80, .3);
                           cursor: pointer;
                         }
 
                         .q6:hover {
-                          background-color: rgba(244, 58, 34, .3);
+                          background-color: rgba(55, 242, 80, .3);
                           cursor: pointer;
                         }
 
                         .q7:hover {
-                          background-color: rgba(176, 55, 232, .3);
+                          background-color: rgba(55, 242, 80, .3);
                           cursor: pointer;
                         }
 
                         .q8:hover {
-                          background-color: rgba(88, 212, 239, .3);
+                          background-color: rgba(55, 242, 80, .3);
                           cursor: pointer;
                         }
 
                         .q1chosen {
-                          background-color: rgba(24, 191, 247, .3);
+                          background-color: rgba(55, 242, 80, .3);
                         }
 
                         .q2chosen {
@@ -368,27 +369,27 @@ p {
 
                         .q3chosen {
 
-                          background-color: rgba(237, 106, 215, .3);
+                          background-color: rgba(55, 242, 80, .3);
                         }
 
                         .q4chosen {
-                          background-color: rgba(235, 242, 53, .3);
+                          background-color: rgba(55, 242, 80, .3);
                         }
 
                         .q5chosen {
-                          background-color: rgba(237, 175, 52, .3);
+                          background-color: rgba(55, 242, 80, .3);
                         }
 
                         .q6chosen {
-                          background-color: rgba(244, 58, 34, .3);
+                          background-color: rgba(55, 242, 80, .3);
                         }
 
                         .q7chosen {
-                          background-color: rgba(176, 55, 232, .3);
+                          background-color: rgba(55, 242, 80, .3);
                         }
 
                         .q8chosen {
-                          background-color: rgba(88, 212, 239, .3);
+                          background-color: rgba(55, 242, 80, .3);
                         }
 
                                 .answer-info {
@@ -566,7 +567,7 @@ p {
 .footer {
   width: 100%;
   box-shadow: 0 0 1em lightgrey;
-  background-color: rgb(76, 76, 76);
+  background-color: rgb(0, 0, 0);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
