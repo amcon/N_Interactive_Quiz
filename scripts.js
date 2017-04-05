@@ -261,7 +261,7 @@ $(function() {
   FB.init({appId: '274978829611159', status: true, cookie:true, xfbml: true});
   $('#share-quiz-facebook').click(function() {
     FB.ui({
-      method: 'share',
+      method: 'feed',
       link: 'https://amcon.github.io/N_Interactive_quiz',
       name: quiz_title,
       description: quiz_description,
