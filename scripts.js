@@ -262,7 +262,7 @@ $(function() {
   $('#share-quiz-facebook').click(function() {
     FB.ui({
       method: 'share',
-      href: 'https://amcon.github.io/N_Interactive_Quiz',
+      link: 'https://amcon.github.io/N_Interactive_quiz',
       name: quiz_title,
       description: quiz_description,
       image: quiz_pic
