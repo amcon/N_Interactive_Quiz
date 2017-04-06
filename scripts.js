@@ -276,7 +276,7 @@ $(function() {
           link: 'https://amcon.github.io/N_Interactive_quiz',
           name: 'I got the Nissan Leaf! Try it yourself: ',
           description: quiz_description,
-          picture: 'http://i.imgur.com/ZVUOUJ6.jpg'
+          picture: 'http://i.imgur.com/rT83ixU.jpg'
         }, function(response){});
       });
     } else if (completedCounter >= 8 && max === 2) {
@@ -293,7 +293,7 @@ $(function() {
           link: 'https://amcon.github.io/N_Interactive_quiz',
           name: 'I got the Nissan Note! Try it yourself: ',
           description: quiz_description,
-          picture: 'http://i.imgur.com/ZVUOUJ6.jpg'
+          picture: 'http://i.imgur.com/rT83ixU.jpg'
         }, function(response){});
       });
     } else if (completedCounter >= 8 && max === 3) {
@@ -310,7 +310,7 @@ $(function() {
           link: 'https://amcon.github.io/N_Interactive_quiz',
           name: 'I got the Nissan G-T-R! Try it yourself: ',
           description: quiz_description,
-          picture: 'http://i.imgur.com/ZVUOUJ6.jpg'
+          picture: 'http://i.imgur.com/rT83ixU.jpg'
         }, function(response){});
       });
    } else if (completedCounter >= 8 && max === 4) {
@@ -327,7 +327,7 @@ $(function() {
           link: 'https://amcon.github.io/N_Interactive_quiz',
           name: 'I got the Nissan SOFC! Try it yourself: ',
           description: quiz_description,
-          picture: 'http://i.imgur.com/ZVUOUJ6.jpg'
+          picture: 'http://i.imgur.com/rT83ixU.jpg'
         }, function(response){});
       });
     } else if (completedCounter >= 8 && max === 5) {
@@ -344,7 +344,7 @@ $(function() {
           link: 'https://amcon.github.io/N_Interactive_quiz',
           name: 'I got the Nissan X-Trail Hybrid! Try it yourself: ',
           description: quiz_description,
-          picture: 'http://i.imgur.com/ZVUOUJ6.jpg'
+          picture: 'http://i.imgur.com/rT83ixU.jpg'
         }, function(response){});
       });
     } else if (completedCounter >= 8 && max === 6) {
@@ -361,7 +361,7 @@ $(function() {
           link: 'https://amcon.github.io/N_Interactive_quiz',
           name: 'I got the Nissan Bladeglider! Try it yourself: ',
           description: quiz_description,
-          picture: 'http://i.imgur.com/ZVUOUJ6.jpg'
+          picture: 'http://i.imgur.com/rT83ixU.jpg'
         }, function(response){});
       });
     }
@@ -384,7 +384,7 @@ $(function() {
       link: 'https://amcon.github.io/N_Interactive_quiz',
       name: quiz_title,
       description: quiz_description,
-      picture: 'http://i.imgur.com/ZVUOUJ6.jpg'
+      picture: 'http://i.imgur.com/rT83ixU.jpg'
     }, function(response){});
   });
 
@@ -393,7 +393,7 @@ $(function() {
   })
 
   $('#share-quiz-pinterest').click(function() {
-    window.open("https://www.pinterest.com/pin/create/button/?url=https://amcon.github.io/N_Interactive_Quiz&media=http://i.imgur.com/ZVUOUJ6.jpg&description=Nissan Intelligent Mobility is not about removing humans from the driving experience. Instead, it’s about building a better future for our customers where cars are their partners, helping drivers to become more confident and more connected. We believe that that people would still love to drive by themselves, so our task is to make their driving experience MORE, not less, exciting.");
+    window.open("https://www.pinterest.com/pin/create/button/?url=https://amcon.github.io/N_Interactive_Quiz&media=http://i.imgur.com/rT83ixU.jpg&description=Nissan Intelligent Mobility is not about removing humans from the driving experience. Instead, it’s about building a better future for our customers where cars are their partners, helping drivers to become more confident and more connected. We believe that that people would still love to drive by themselves, so our task is to make their driving experience MORE, not less, exciting.");
   })
 
 });

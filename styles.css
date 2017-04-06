@@ -267,35 +267,43 @@ p {
         }
 
         #q1 {
-          background-color: rgb(24, 191, 247);
+          background-image: url('images/stock-test/q1.png');
+          background-size: 100% 100%;
         }
 
         #q2 {
-          background-color: rgb(55, 242, 80);
+          background-image: url('images/stock-test/q2.png');
+          background-size: 100% 100%;
         }
 
         #q3 {
-          background-color: rgb(237, 106, 215);
+          background-image: url('images/stock-test/q3.png');
+          background-size: 100% 100%;
         }
 
         #q4 {
-          background-color: rgb(235, 242, 53);
+          background-image: url('images/stock-test/q4.png');
+          background-size: 100% 100%;
         }
 
         #q5 {
-          background-color: rgb(237, 175, 52);
+          background-image: url('images/stock-test/q5.png');
+          background-size: 100% 100%;
         }
 
         #q6 {
-          background-color: rgb(244, 58, 34);
+          background-image: url('images/stock-test/q6.png');
+          background-size: 100% 100%;
         }
 
         #q7 {
-          background-color: rgb(176, 55, 232);
+          background-image: url('images/stock-test/q7.png');
+          background-size: 100% 100%;
         }
 
         #q8 {
-          background-color: rgb(88, 212, 239);
+          background-image: url('images/stock-test/q8.png');
+          background-size: 100% 100%;
         }
 
                 .question {
@@ -314,9 +322,14 @@ p {
                 }
 
                         .question h2 {
-                          margin: 5%;
+                          padding: 5%;
                           font-size: 38px;
-                          text-shadow: 0 0 .1em black;
+                          display: flex;
+                          justify-content: center;
+                          align-items: center;
+                          height: 80px;
+                          width: 90%;
+                          background-color: rgba(0, 0, 0, .6);
                         }
 
                 .answer-box {
@@ -438,8 +451,8 @@ p {
                                           height: 22%;
                                           width: 78%;
                                           margin: 5% 0 2.5% 0;
-                                          font-size: 13.5px;
-                                          font-family: "Nissan Brand Regular", Verdana;
+                                          font-size: 14px;
+                                          font-family: "Nissan Brand Bold", Verdana;
                                         }
 
                                         #quiz-bottom {
