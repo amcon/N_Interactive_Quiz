@@ -684,6 +684,14 @@ and (min-device-width : 414px)
 and (max-device-width : 736px)
 and (orientation: portrait) {
 
+.question-box.three-answer {
+  height: 1000px;
+}
+
+.after-three {
+  margin-top: -50px;
+}
+
 .line {
   width: 80%;
 }
@@ -775,6 +783,14 @@ and (min-device-width : 375px)
 and (max-device-width : 667px)
 and (orientation: portrait) {
 
+.question-box.three-answer {
+  height: 1000px;
+}
+
+.after-three {
+  margin-top: -50px;
+}
+
 .line {
   width: 80%;
 }
@@ -865,6 +881,14 @@ and (orientation: landscape) {
 and (min-device-width : 320px)
 and (max-device-width : 568px)
 and (orientation: portrait) {
+
+.question-box.three-answer {
+  height: 1000px;
+}
+
+.after-three {
+  margin-top: -50px;
+}
 
 .line {
   width: 80%;
