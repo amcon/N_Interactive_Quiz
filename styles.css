@@ -233,13 +233,33 @@ p {
 }
 
         .question-box {
-          height: 850px;
+          height: 900px;
           width: 750px;
           margin-top: 100px;
           display: flex;
           flex-direction: column;
           justify-content: flex-start;
           align-items: center;
+        }
+
+        .three-answer {
+          height: 700px;
+        }
+
+                .three-answer .question {
+                  height: 48.5%;
+                }
+
+                .three-answer .answer-box {
+                  height: 38%;
+                }
+
+                .three-answer .answer {
+                  height: 99%;
+                }
+
+        .after-three {
+          margin-top: 50px;
         }
 
         #quiz-start {
@@ -279,7 +299,7 @@ p {
         }
 
                 .question {
-                  height: 42.5%;
+                  height: 37.5%;
                   width: 80%;
                   display: flex;
                   flex-direction: column;
@@ -300,7 +320,7 @@ p {
                         }
 
                 .answer-box {
-                  height: 55%;
+                  height: 60%;
                   width: 82%;
                   display: flex;
                   flex-direction: row;
@@ -319,76 +339,76 @@ p {
                         }
 
                         .q1:hover {
-                          background-color: rgba(55, 242, 80, .3);
+                          background-color: rgba(195, 0, 47, .5);
                           cursor: pointer;
                         }
 
                         .q2:hover {
-                          background-color: rgba(55, 242, 80, .3);
+                          background-color: rgba(195, 0, 47, .5);
                           cursor: pointer;
                         }
 
                         .q3:hover {
-                          background-color: rgba(55, 242, 80, .3);
+                          background-color: rgba(195, 0, 47, .5);
                           cursor: pointer;
                         }
 
                         .q4:hover {
-                          background-color: rgba(55, 242, 80, .3);
+                          background-color: rgba(195, 0, 47, .5);
                           cursor: pointer;
                         }
 
                         .q5:hover {
-                          background-color: rgba(55, 242, 80, .3);
+                          background-color: rgba(195, 0, 47, .5);
                           cursor: pointer;
                         }
 
                         .q6:hover {
-                          background-color: rgba(55, 242, 80, .3);
+                          background-color: rgba(195, 0, 47, .5);
                           cursor: pointer;
                         }
 
                         .q7:hover {
-                          background-color: rgba(55, 242, 80, .3);
+                          background-color: rgba(195, 0, 47, .5);
                           cursor: pointer;
                         }
 
                         .q8:hover {
-                          background-color: rgba(55, 242, 80, .3);
+                          background-color: rgba(195, 0, 47, .5);
                           cursor: pointer;
                         }
 
                         .q1chosen {
-                          background-color: rgba(55, 242, 80, .3);
+                          background-color: rgba(195, 0, 47, .5);
                         }
 
                         .q2chosen {
-                          background-color: rgba(55, 242, 80, .3);
+                          background-color: rgba(195, 0, 47, .5);
                         }
 
                         .q3chosen {
 
-                          background-color: rgba(55, 242, 80, .3);
+                          background-color: rgba(195, 0, 47, .5);
                         }
 
                         .q4chosen {
-                          background-color: rgba(55, 242, 80, .3);
+                          background-color: rgba(195, 0, 47, .5);
                         }
 
                         .q5chosen {
-                          background-color: rgba(55, 242, 80, .3);
+                          background-color: rgba(195, 0, 47, .5);
                         }
 
                         .q6chosen {
-                          background-color: rgba(55, 242, 80, .3);
+                          background-color: rgba(195, 0, 47, .5);
                         }
 
                         .q7chosen {
-                          background-color: rgba(55, 242, 80, .3);
+                          background-color: rgba(195, 0, 47, .5);
                         }
 
                         .q8chosen {
-                          background-color: rgba(55, 242, 80, .3);
+                          background-color: rgba(195, 0, 47, .5);
                         }
 
                                 .answer-info {
@@ -399,25 +419,27 @@ p {
                                   border: 1px solid lightgrey;
                                   display: flex;
                                   flex-direction: column;
-                                  justify-content: space-between;
+                                  justify-content: center;
                                   align-items: center;
                                   box-shadow: 0 0 .2em lightgrey;
                                 }
 
                                         .answer-info img {
-                                          height: 75%;
+                                          height: 60%;
                                           width: 90%;
                                           background-color: rgb(120, 120, 120);
-                                          margin-top: 5%;
                                         }
 
                                         .answer-info p {
                                           display: flex;
                                           justify-content: center;
                                           align-items: center;
-                                          height: 15%;
+                                          text-align: center;
+                                          height: 22%;
                                           width: 78%;
-                                          margin-bottom: 5%;
+                                          margin: 5% 0 2.5% 0;
+                                          font-size: 13.5px;
+                                          font-family: "Nissan Brand Regular", Verdana;
                                         }
 
                                         #quiz-bottom {

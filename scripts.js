@@ -8,6 +8,7 @@ $(function() {
 
   let quiz_result = $('.result-title').text().toString();
 
+
   let questionOneTop = $('#q1').position();
   let questionTwoTop = $('#q2').position();
   let questionThreeTop = $('#q3').position();
@@ -61,13 +62,33 @@ $(function() {
       $("html, body").animate({ scrollTop: (questionThreeTop.top + 50 )}, "slow");
       updateCounter();
       q2clickedOnce = true;
-      answerArr.push($(this).attr("value"));
+      if ($(this).attr("value") === "6") {
+        answerArr.push($(this).attr("value"));
+      } else if ($(this).attr("value") === "3") {
+        answerArr.push($(this).attr("value"));
+      } else {
+        answerArr.push("1");
+        answerArr.push("2");
+        answerArr.push("4");
+        answerArr.push("5");
+      }
     } else {
       $('.q2').removeClass('q2chosen');
       $(this).addClass('q2chosen');
       $("html, body").animate({ scrollTop: (questionThreeTop.top + 50 )}, "slow");
-      answerArr.pop();
-      answerArr.push($(this).attr("value"));
+      if ($(this).attr("value") === "6") {
+        answerArr.pop();
+        answerArr.push($(this).attr("value"));
+      } else if ($(this).attr("value") === "3") {
+        answerArr.pop();
+        answerArr.push($(this).attr("value"));
+      } else {
+        answer.pop();
+        answerArr.push("1");
+        answerArr.push("2");
+        answerArr.push("4");
+        answerArr.push("5");
+      }
     }
   });
 
@@ -95,13 +116,38 @@ $(function() {
       $("html, body").animate({ scrollTop: (questionFiveTop.top + 50 )}, "slow");
       updateCounter();
       q4clickedOnce = true;
-      answerArr.push($(this).attr("value"));
+      if ($(this).attr("value") === "15") {
+        answerArr.push("1");
+        answerArr.push("2");
+        console.log(answerArr);
+      } else if ($(this).attr("value") ===  "63") {
+        answerArr.push("6");
+        answerArr.push("3");
+        console.log(answerArr);
+      } else {
+        answerArr.push("2");
+        answerArr.push("4");
+        console.log(answerArr);
+      }
     } else {
       $('.q4').removeClass('q4chosen');
       $(this).addClass('q4chosen');
       $("html, body").animate({ scrollTop: (questionFiveTop.top + 50 )}, "slow");
       answerArr.pop();
-      answerArr.push($(this).attr("value"));
+      answerArr.pop();
+      if ($(this).attr("value") === "15") {
+        answerArr.push("1");
+        answerArr.push("2");
+        console.log(answerArr);
+      } else if ($(this).attr("value") ===  "63") {
+        answerArr.push("6");
+        answerArr.push("3");
+        console.log(answerArr);
+      } else {
+        answerArr.push("2");
+        answerArr.push("4");
+        console.log(answerArr);
+      }
     }
   });
 
