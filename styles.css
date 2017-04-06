@@ -721,6 +721,10 @@ and (orientation: portrait) {
   width: 97.5%;
 }
 
+.answer-info p {
+  font-size: 20px;
+}
+
 .finished {
   height: 1200px;
 }
@@ -808,6 +812,10 @@ and (orientation: portrait) {
   width: 97.5%;
 }
 
+.answer-info p {
+  font-size: 20px;
+}
+
 .finished {
   height: 1200px;
 }
@@ -893,6 +901,10 @@ and (orientation: portrait) {
 
 .answer-box {
   width: 97.5%;
+}
+
+.answer-info p {
+  font-size: 20px;
 }
 
 .finished {
