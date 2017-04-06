@@ -440,7 +440,7 @@ p {
                                 }
 
                                         .answer-info img {
-                                          height: 60%;
+                                          height: 55%;
                                           width: 90%;
                                           background-color: rgb(120, 120, 120);
                                         }
@@ -450,7 +450,7 @@ p {
                                           justify-content: center;
                                           align-items: center;
                                           text-align: center;
-                                          height: 22%;
+                                          height: 32%;
                                           width: 78%;
                                           margin: 5% 0 2.5% 0;
                                           font-size: 14px;
