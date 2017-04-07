@@ -472,7 +472,7 @@ p {
                 .result {
                   opacity: 0;
                   height: 0px;
-                  width: 50%;
+                  width: 600px;
                   display: flex;
                   flex-direction: column;
                   justify-content: space-around;
@@ -781,6 +781,7 @@ and (orientation: landscape) {
 
 .finished {
   height: 520px;
+  width: 500px;
   left: 25%;
 }
 
@@ -884,6 +885,7 @@ and (orientation: landscape) {
 
 .finished {
   height: 520px;
+  width: 500px;
   left: 25%;
 }
 
@@ -987,6 +989,7 @@ and (orientation: landscape) {
 
 .finished {
   height: 520px;
+  width: 500px;
   left: 25%;
 }
 
@@ -1047,6 +1050,7 @@ and (max-device-width : 2200px) {
 
 .finished {
   height: 1000px;
+  width: 900px;
 }
 
 .finished h1 {
@@ -1095,6 +1099,7 @@ and (max-device-width : 2600px) {
 
 .finished {
   height: 1300px;
+  width: 1200px;
 }
 
 .finished h1 {
@@ -1152,6 +1157,7 @@ and (max-device-width : 2800px) {
 
 .finished {
   height: 1500px;
+  width: 1400px;
 }
 
 .finished h1 {
@@ -1208,6 +1214,7 @@ and (min-device-width : 2800px) {
 
 .finished {
   height: 1600px;
+  width: 1500px;
 }
 
 .finished h1 {
