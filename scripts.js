@@ -119,15 +119,12 @@ $(function() {
       if ($(this).attr("value") === "15") {
         answerArr.push("1");
         answerArr.push("2");
-        console.log(answerArr);
       } else if ($(this).attr("value") ===  "63") {
         answerArr.push("6");
         answerArr.push("3");
-        console.log(answerArr);
       } else {
         answerArr.push("2");
         answerArr.push("4");
-        console.log(answerArr);
       }
     } else {
       $('.q4').removeClass('q4chosen');
@@ -138,15 +135,12 @@ $(function() {
       if ($(this).attr("value") === "15") {
         answerArr.push("1");
         answerArr.push("2");
-        console.log(answerArr);
       } else if ($(this).attr("value") ===  "63") {
         answerArr.push("6");
         answerArr.push("3");
-        console.log(answerArr);
       } else {
         answerArr.push("2");
         answerArr.push("4");
-        console.log(answerArr);
       }
     }
   });
