@@ -268,42 +268,50 @@ p {
 
         #q1 {
           background-image: url('images/stock-test/q1.png');
-          background-size: 100% 100%;
+          background-size: 100%;
+          background-repeat: no-repeat;
         }
 
         #q2 {
           background-image: url('images/stock-test/q2.png');
-          background-size: 100% 100%;
+          background-size: 100%;
+          background-repeat: no-repeat;
         }
 
         #q3 {
           background-image: url('images/stock-test/q3.png');
-          background-size: 100% 100%;
+          background-size: 100%;
+          background-repeat: no-repeat;
         }
 
         #q4 {
           background-image: url('images/stock-test/q4.png');
-          background-size: 100% 100%;
+          background-size: 100%;
+          background-repeat: no-repeat;
         }
 
         #q5 {
           background-image: url('images/stock-test/q5.png');
-          background-size: 100% 100%;
+          background-size: 100%;
+          background-repeat: no-repeat;
         }
 
         #q6 {
           background-image: url('images/stock-test/q6.png');
-          background-size: 100% 100%;
+          background-size: 100%;
+          background-repeat: no-repeat;
         }
 
         #q7 {
           background-image: url('images/stock-test/q7.png');
-          background-size: 100% 100%;
+          background-size: 100%;
+          background-repeat: no-repeat;
         }
 
         #q8 {
           background-image: url('images/stock-test/q8.png');
-          background-size: 100% 100%;
+          background-size: 100%;
+          background-repeat: no-repeat;
         }
 
                 .question {
