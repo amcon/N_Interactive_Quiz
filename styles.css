@@ -760,6 +760,10 @@ and (orientation: portrait) {
   height: 40%;
 }
 
+#take-again h3 {
+  font-size: 30px;
+}
+
 }
 
 @media only screen
@@ -859,6 +863,10 @@ and (orientation: portrait) {
   height: 40%;
 }
 
+#take-again h3 {
+  font-size: 30px;
+}
+
 }
 
 @media only screen
@@ -956,6 +964,10 @@ and (orientation: portrait) {
 
 .result-image {
   height: 40%;
+}
+
+#take-again h3 {
+  font-size: 30px;
 }
 
 }
