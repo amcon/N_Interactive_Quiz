@@ -42,14 +42,14 @@ $(function() {
     if (q1clickedOnce === false) {
       $('.q1').removeClass('q1chosen');
       $(this).addClass('q1chosen');
-      $("html, body").animate({ scrollTop: (questionTwoTop.top)}, "slow");
+      $("html, body").animate({ scrollTop: (questionTwoTop.top) - 100}, "slow");
       updateCounter();
       q1clickedOnce = true;
       answerArr.push($(this).attr("value"));
     } else {
       $('.q1').removeClass('q1chosen');
       $(this).addClass('q1chosen');
-      $("html, body").animate({ scrollTop: (questionTwoTop.top)}, "slow");
+      $("html, body").animate({ scrollTop: (questionTwoTop.top) - 100}, "slow");
       answerArr.pop();
       answerArr.push($(this).attr("value"));
     }
@@ -59,7 +59,7 @@ $(function() {
     if (q2clickedOnce === false) {
       $('.q2').removeClass('q2chosen');
       $(this).addClass('q2chosen');
-      $("html, body").animate({ scrollTop: (questionThreeTop.top)}, "slow");
+      $("html, body").animate({ scrollTop: (questionThreeTop.top) - 100}, "slow");
       updateCounter();
       q2clickedOnce = true;
       if ($(this).attr("value") === "6") {
@@ -75,7 +75,7 @@ $(function() {
     } else {
       $('.q2').removeClass('q2chosen');
       $(this).addClass('q2chosen');
-      $("html, body").animate({ scrollTop: (questionThreeTop.top)}, "slow");
+      $("html, body").animate({ scrollTop: (questionThreeTop.top) - 100}, "slow");
       if ($(this).attr("value") === "6") {
         answerArr.pop();
         answerArr.push($(this).attr("value"));
@@ -96,14 +96,14 @@ $(function() {
     if (q3clickedOnce === false) {
       $('.q3').removeClass('q3chosen');
       $(this).addClass('q3chosen');
-      $("html, body").animate({ scrollTop: (questionFourTop.top)}, "slow");
+      $("html, body").animate({ scrollTop: (questionFourTop.top) - 100}, "slow");
       updateCounter();
       q3clickedOnce = true;
       answerArr.push($(this).attr("value"));
     } else {
       $('.q3').removeClass('q3chosen');
       $(this).addClass('q3chosen');
-      $("html, body").animate({ scrollTop: (questionFourTop.top)}, "slow");
+      $("html, body").animate({ scrollTop: (questionFourTop.top) - 100}, "slow");
       answerArr.pop();
       answerArr.push($(this).attr("value"));
     }
@@ -113,7 +113,7 @@ $(function() {
     if (q4clickedOnce === false) {
       $('.q4').removeClass('q4chosen');
       $(this).addClass('q4chosen');
-      $("html, body").animate({ scrollTop: (questionFiveTop.top)}, "slow");
+      $("html, body").animate({ scrollTop: (questionFiveTop.top) - 100}, "slow");
       updateCounter();
       q4clickedOnce = true;
       if ($(this).attr("value") === "15") {
@@ -129,7 +129,7 @@ $(function() {
     } else {
       $('.q4').removeClass('q4chosen');
       $(this).addClass('q4chosen');
-      $("html, body").animate({ scrollTop: (questionFiveTop.top)}, "slow");
+      $("html, body").animate({ scrollTop: (questionFiveTop.top) - 100}, "slow");
       answerArr.pop();
       answerArr.pop();
       if ($(this).attr("value") === "15") {
@@ -149,14 +149,14 @@ $(function() {
     if (q5clickedOnce === false) {
       $('.q5').removeClass('q5chosen');
       $(this).addClass('q5chosen');
-      $("html, body").animate({ scrollTop: (questionSixTop.top)}, "slow");
+      $("html, body").animate({ scrollTop: (questionSixTop.top) - 100}, "slow");
       updateCounter();
       q5clickedOnce = true;
       answerArr.push($(this).attr("value"));
     } else {
       $('.q5').removeClass('q5chosen');
       $(this).addClass('q5chosen');
-      $("html, body").animate({ scrollTop: (questionSixTop.top)}, "slow");
+      $("html, body").animate({ scrollTop: (questionSixTop.top) - 100}, "slow");
       answerArr.pop();
       answerArr.push($(this).attr("value"));
     }
@@ -166,14 +166,14 @@ $(function() {
     if (q6clickedOnce === false) {
       $('.q6').removeClass('q6chosen');
       $(this).addClass('q6chosen');
-      $("html, body").animate({ scrollTop: (questionSevenTop.top)}, "slow");
+      $("html, body").animate({ scrollTop: (questionSevenTop.top) - 100}, "slow");
       updateCounter();
       q6clickedOnce = true;
       answerArr.push($(this).attr("value"));
     } else {
       $('.q6').removeClass('q6chosen');
       $(this).addClass('q6chosen');
-      $("html, body").animate({ scrollTop: (questionSevenTop.top)}, "slow");
+      $("html, body").animate({ scrollTop: (questionSevenTop.top) - 100}, "slow");
       answerArr.pop();
       answerArr.push($(this).attr("value"));
     }
@@ -183,14 +183,14 @@ $(function() {
     if (q7clickedOnce === false) {
       $('.q7').removeClass('q7chosen');
       $(this).addClass('q7chosen');
-      $("html, body").animate({ scrollTop: (questionEightTop.top)}, "slow");
+      $("html, body").animate({ scrollTop: (questionEightTop.top) - 100}, "slow");
       updateCounter();
       q7clickedOnce = true;
       answerArr.push($(this).attr("value"));
     } else {
       $('.q7').removeClass('q7chosen');
       $(this).addClass('q7chosen');
-      $("html, body").animate({ scrollTop: (questionEightTop.top)}, "slow");
+      $("html, body").animate({ scrollTop: (questionEightTop.top) - 100}, "slow");
       answerArr.pop();
       answerArr.push($(this).attr("value"));
     }
@@ -371,7 +371,7 @@ $(function() {
   });
 
 
-  FB.init({appId: '274978829611159', status: true, cookie:true, xfbml: true});
+  // FB.init({appId: '274978829611159', status: true, cookie:true, xfbml: true});
   $('#share-quiz-facebook').click(function() {
     FB.ui({
       method: 'feed',
