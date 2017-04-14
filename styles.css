@@ -159,8 +159,8 @@ p {
                 }
 
                 .info p {
-                  font-size: 14px;
-                  line-height: 20px;
+                  font-size: 17px;
+                  line-height: 22px;
                 }
 
                 .share-quiz {
@@ -553,6 +553,10 @@ p {
                           justify-content: center;
                           align-items: flex-start;
                         }
+
+                                .result-description p {
+                                  font-size: 14.5px;
+                                }
 
                         .result-share {
                           height: 10%;
