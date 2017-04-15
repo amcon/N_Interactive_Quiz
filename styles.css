@@ -772,7 +772,11 @@ and (orientation: portrait) {
 }
 
 .answer-info p {
-  font-size: 20px;
+  font-size: 25px;
+}
+
+#long-answer {
+  font-size: 23px;
 }
 
 .finished {
@@ -877,7 +881,11 @@ and (orientation: portrait) {
 }
 
 .answer-info p {
-  font-size: 20px;
+  font-size: 25px;
+}
+
+#long-answer {
+  font-size: 23px;
 }
 
 .finished {
@@ -982,7 +990,11 @@ and (orientation: portrait) {
 }
 
 .answer-info p {
-  font-size: 20px;
+  font-size: 25px;
+}
+
+#long-answer {
+  font-size: 23px;
 }
 
 .finished {
@@ -1081,7 +1093,11 @@ and (max-device-width : 2200px) {
 }
 
 .answer-info p {
-  font-size: 20px;
+  font-size: 25px;
+}
+
+#long-answer {
+  font-size: 23px;
 }
 
 #long-answer {
