@@ -134,7 +134,7 @@ p {
 /*----------------------------------*/
 
 .info-box {
-  height: 450px;
+  height: 475px;
   width: 100%;
   margin-top: 50px;
   padding: 25px 0 15px 0;
@@ -161,7 +161,7 @@ p {
 
                 .info p {
                   font-size: 20px;
-                  line-height: 25px;
+                  line-height: 30px;
                   margin-top: 25px;
                 }
 
