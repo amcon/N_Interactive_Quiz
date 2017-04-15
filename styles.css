@@ -742,12 +742,12 @@ and (orientation: portrait) {
 }
 
 .info-box {
-  height: 1000px;
+  height: 800px;
 }
 
 .info h1 {
-  font-size: 65px;
-  line-height: 70px;
+  font-size: 60px;
+  line-height: 65px;
 }
 
 .info p {
@@ -847,12 +847,12 @@ and (orientation: portrait) {
 }
 
 .info-box {
-  height: 1000px;
+  height: 800px;
 }
 
 .info h1 {
-  font-size: 65px;
-  line-height: 70px;
+  font-size: 60px;
+  line-height: 65px;
 }
 
 .info p {
@@ -952,12 +952,12 @@ and (orientation: portrait) {
 }
 
 .info-box {
-  height: 1000px;
+  height: 800px;
 }
 
 .info h1 {
-  font-size: 65px;
-  line-height: 70px;
+  font-size: 60px;
+  line-height: 65px;
 }
 
 .info p {
