@@ -134,7 +134,7 @@ p {
 /*----------------------------------*/
 
 .info-box {
-  height: 475px;
+  height: 375px;
   width: 100%;
   padding: 25px 0 15px 0;
   display: flex;
@@ -154,14 +154,14 @@ p {
         }
 
                 .info h1 {
-                  font-size: 37px;
-                  line-height: 37px;
+                  font-size: 35px;
+                  line-height: 35px;
                 }
 
                 .info p {
-                  font-size: 20px;
+                  font-size: 15px;
                   line-height: 30px;
-                  margin-top: 25px;
+                  margin-top: 20px;
                 }
 
                 .share-quiz {
@@ -1178,6 +1178,10 @@ and (max-device-width : 2600px) {
 
 .info {
   width: 1130px;
+}
+
+.info-box {
+  height: 475px;
 }
 
 .info h1 {
