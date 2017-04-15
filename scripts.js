@@ -430,7 +430,7 @@ $(function() {
   });
 
   $('#share-quiz-email').click(function() {
-    window.open("mailto:?subject=What new Nissan is designed to fit your personality?&body=Take this quiz:%0D%0Ahttps://amcon.github.io/N_Interactive_Quiz", "_blank");
+    window.open("mailto:?subject=Which Nissan car matches your personality?&body=Take this quiz:%0D%0Ahttps://amcon.github.io/N_Interactive_Quiz", "_blank");
   });
 
 
@@ -446,7 +446,7 @@ $(function() {
   });
 
   $('#share-quiz-twitter').click(function() {
-    window.open("https://twitter.com/intent/tweet?url=https://amcon.github.io/N_Interactive_Quiz&text=What new Nissan is designed to fit your personality?");
+    window.open("https://twitter.com/intent/tweet?url=https://amcon.github.io/N_Interactive_Quiz&text=Which Nissan car matches your personality?");
   })
 
   $('#share-quiz-pinterest').click(function() {
