@@ -742,16 +742,17 @@ and (orientation: portrait) {
 }
 
 .info-box {
-  height: 500px;
+  height: 1000px;
 }
 
 .info h1 {
-  font-size: 40px;
+  font-size: 70px;
+  line-height: 80px;
 }
 
 .info p {
-  font-size: 25px;
-  line-height: 30px;
+  font-size: 40px;
+  line-height: 50px;
 }
 
 .question-box {
@@ -846,16 +847,17 @@ and (orientation: portrait) {
 }
 
 .info-box {
-  height: 500px;
+  height: 1000px;
 }
 
 .info h1 {
-  font-size: 40px;
+  font-size: 70px;
+  line-height: 80px;
 }
 
 .info p {
-  font-size: 25px;
-  line-height: 30px;
+  font-size: 40px;
+  line-height: 50px;
 }
 
 .question-box {
@@ -950,16 +952,17 @@ and (orientation: portrait) {
 }
 
 .info-box {
-  height: 500px;
+  height: 1000px;
 }
 
 .info h1 {
-  font-size: 40px;
+  font-size: 70px;
+  line-height: 80px;
 }
 
 .info p {
-  font-size: 25px;
-  line-height: 30px;
+  font-size: 40px;
+  line-height: 50px;
 }
 
 .question-box {
