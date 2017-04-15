@@ -479,6 +479,22 @@ $(function() {
 
   $('#share-quiz-pinterest').click(function() {
     window.open("https://www.pinterest.com/pin/create/button/?url=https://amcon.github.io/N_Interactive_Quiz&media=http://i.imgur.com/rT83ixU.jpg&description=Nissan Intelligent Mobility is not about removing humans from the driving experience. Instead, it’s about building a better future for our customers where cars are their partners, helping drivers to become more confident and more connected. We believe that that people would still love to drive by themselves, so our task is to make their driving experience MORE, not less, exciting.");
-  })
+  });
+
+  $('#nissan-facebook').click(function() {
+    window.open("https://www.facebook.com/nissanusa/", "_blank")
+  });
+
+  $('#nissan-twitter').click(function() {
+    window.open("https://twitter.com/NissanUSA", "_blank")
+  });
+
+  $('#nissan-youtube').click(function() {
+    window.open("https://www.youtube.com/user/nissanusa", "_blank")
+  });
+
+  $('#nissan-instagram').click(function() {
+    window.open("https://www.instagram.com/nissanusa/", "_blank")
+  });
 
 });

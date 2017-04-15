@@ -134,8 +134,9 @@ p {
 /*----------------------------------*/
 
 .info-box {
-  height: 350px;
+  height: 450px;
   width: 100%;
+  margin-top: 50px;
   padding: 25px 0 15px 0;
   display: flex;
   flex-direction: column;
@@ -154,13 +155,14 @@ p {
         }
 
                 .info h1 {
-                  font-size: 30px;
-                  line-height: 30px;
+                  font-size: 37px;
+                  line-height: 37px;
                 }
 
                 .info p {
-                  font-size: 17px;
-                  line-height: 22px;
+                  font-size: 20px;
+                  line-height: 25px;
+                  margin-top: 25px;
                 }
 
                 .share-quiz {
@@ -173,7 +175,7 @@ p {
                 }
 
                         .share {
-                          height: 50%;
+                          height: 40%;
                           width: 24.5%;
                           box-shadow: 0 0 .2em lightgrey;
                           display: flex;
@@ -242,6 +244,10 @@ p {
           align-items: center;
         }
 
+        .last {
+          margin-bottom: 50px;
+        }
+
         .three-answer {
           height: 700px;
         }
@@ -267,19 +273,19 @@ p {
         }
 
         #q1 {
-          background-image: url('images/stock-test/q1.png');
+          background-image: url('images/stock-test/q1.jpg');
           background-size: 100%;
           background-repeat: no-repeat;
         }
 
         #q2 {
-          background-image: url('images/stock-test/q2.png');
+          background-image: url('images/stock-test/q2.jpg');
           background-size: 100%;
           background-repeat: no-repeat;
         }
 
         #q3 {
-          background-image: url('images/stock-test/q3.png');
+          background-image: url('images/stock-test/q3.jpg');
           background-size: 100%;
           background-repeat: no-repeat;
         }
@@ -291,13 +297,13 @@ p {
         }
 
         #q5 {
-          background-image: url('images/stock-test/q5.png');
+          background-image: url('images/stock-test/q5.jpg');
           background-size: 100%;
           background-repeat: no-repeat;
         }
 
         #q6 {
-          background-image: url('images/stock-test/q6.png');
+          background-image: url('images/stock-test/q6.jpg');
           background-size: 100%;
           background-repeat: no-repeat;
         }
@@ -361,76 +367,76 @@ p {
                           align-items: center;
                         }
 
-                        .q1:hover {
+                        .q1 .answer-info:hover {
                           background-color: lightgrey;
                           cursor: pointer;
                         }
 
-                        .q2:hover {
+                        .q2 .answer-info:hover {
                           background-color: lightgrey;
                           cursor: pointer;
                         }
 
-                        .q3:hover {
+                        .q3 .answer-info:hover {
                           background-color: lightgrey;
                           cursor: pointer;
                         }
 
-                        .q4:hover {
+                        .q4 .answer-info:hover {
                           background-color: lightgrey;
                           cursor: pointer;
                         }
 
-                        .q5:hover {
+                        .q5 .answer-info:hover {
                           background-color: lightgrey;
                           cursor: pointer;
                         }
 
-                        .q6:hover {
+                        .q6 .answer-info:hover {
                           background-color: lightgrey;
                           cursor: pointer;
                         }
 
-                        .q7:hover {
+                        .q7 .answer-info:hover {
                           background-color: lightgrey;
                           cursor: pointer;
                         }
 
-                        .q8:hover {
+                        .q8 .answer-info:hover {
                           background-color: lightgrey;
                           cursor: pointer;
                         }
 
-                        .q1chosen {
+                        .q1chosen .answer-info {
                           background-color: lightgrey;
                         }
 
-                        .q2chosen {
+                        .q2chosen .answer-info {
                           background-color: lightgrey;
                         }
 
-                        .q3chosen {
+                        .q3chosen .answer-info {
 
                           background-color: lightgrey;
                         }
 
-                        .q4chosen {
+                        .q4chosen .answer-info {
                           background-color: lightgrey;
                         }
 
-                        .q5chosen {
+                        .q5chosen .answer-info {
                           background-color: lightgrey;
                         }
 
-                        .q6chosen {
+                        .q6chosen .answer-info {
                           background-color: lightgrey;
                         }
 
-                        .q7chosen {
+                        .q7chosen .answer-info {
                           background-color: lightgrey;
                         }
 
-                        .q8chosen {
+                        .q8chosen .answer-info {
                           background-color: lightgrey;
                         }
 
@@ -461,8 +467,12 @@ p {
                                           height: 32%;
                                           width: 78%;
                                           margin: 5% 0 2.5% 0;
-                                          font-size: 14px;
+                                          font-size: 16px;
                                           font-family: "Nissan Brand Bold", Verdana;
+                                        }
+
+                                        #long-answer {
+                                          font-size: 15px;
                                         }
 
                                         #quiz-bottom {
@@ -656,10 +666,25 @@ p {
                   font-weight: lighter;
                 }
 
+        .follow {
+          height: 25px;
+          width: 250px;
+          color: white;
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          align-items: center;
+          padding: 2.5% 0 0 10%;
+        }
+
+                .follow h3 {
+                  font-size: 15px;
+                }
+
         .icon-box {
           width: 40%;
           height: 50px;
-          padding: 5% 0 5% 10%;
+          padding: 1% 0 2.5% 10%;
           display: flex;
           flex-direction: row;
           justify-content: flex-start;
@@ -669,6 +694,10 @@ p {
                 .icon {
                   margin-right: 15%;
                   height: 25px;
+                }
+
+                .icon:hover {
+                  cursor: pointer;
                 }
 
 
