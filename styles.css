@@ -810,6 +810,15 @@ and (orientation: portrait) {
   font-size: 30px;
 }
 
+.icon {
+  height: 40px;
+}
+
+.follow h3 {
+  font-size: 20px;
+  margin-bottom: 7%;
+}
+
 }
 
 @media only screen
@@ -919,6 +928,15 @@ and (orientation: portrait) {
   font-size: 30px;
 }
 
+.icon {
+  height: 40px;
+}
+
+.follow h3 {
+  font-size: 20px;
+  margin-bottom: 7%;
+}
+
 }
 
 @media only screen
@@ -1026,6 +1044,15 @@ and (orientation: portrait) {
 
 #take-again h3 {
   font-size: 30px;
+}
+
+.icon {
+  height: 40px;
+}
+
+.follow h3 {
+  font-size: 20px;
+  margin-bottom: 7%;
 }
 
 }
