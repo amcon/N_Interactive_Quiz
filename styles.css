@@ -1078,7 +1078,11 @@ and (max-device-width : 2200px) {
 }
 
 .answer-info p {
-  font-size: 25px;
+  font-size: 20px;
+}
+
+#long-answer {
+  font-size: 18px;
 }
 
 .finished {
@@ -1096,6 +1100,10 @@ and (max-device-width : 2200px) {
 
 .finished h3 {
   font-size: 25px;
+}
+
+.icon {
+  height: 35px;
 }
 
 }
@@ -1127,7 +1135,11 @@ and (max-device-width : 2600px) {
 }
 
 .answer-info p {
-  font-size: 30px;
+  font-size: 25px;
+}
+
+#long-answer {
+  font-size: 23px;
 }
 
 .finished {
@@ -1145,6 +1157,10 @@ and (max-device-width : 2600px) {
 
 .finished h3 {
   font-size: 30px;
+}
+
+.icon {
+  height: 40px;
 }
 
 }
@@ -1185,7 +1201,11 @@ and (max-device-width : 2800px) {
 }
 
 .answer-info p {
-  font-size: 35px;
+  font-size: 30px;
+}
+
+#long-answer {
+  font-size: 27px;
 }
 
 .finished {
@@ -1203,6 +1223,10 @@ and (max-device-width : 2800px) {
 
 .finished h3 {
   font-size: 35px;
+}
+
+.icon {
+  height: 45px;
 }
 
 }
@@ -1242,7 +1266,11 @@ and (min-device-width : 2800px) {
 }
 
 .answer-info p {
-  font-size: 40px;
+  font-size: 35px;
+}
+
+#long-answer {
+  font-size: 32px;
 }
 
 .finished {
@@ -1260,6 +1288,10 @@ and (min-device-width : 2800px) {
 
 .finished h3 {
   font-size: 40px;
+}
+
+.icon {
+  height: 50px;
 }
 
 }
