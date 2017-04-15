@@ -46,14 +46,12 @@ $(function() {
       updateCounter();
       q1clickedOnce = true;
       answerArr.push($(this).attr("value"));
-      console.log(answerArr);
     } else {
       $('.q1').removeClass('q1chosen');
       $(this).addClass('q1chosen');
       $("html, body").animate({ scrollTop: (questionTwoTop.top) - 100}, "slow");
       answerArr.pop();
       answerArr.push($(this).attr("value"));
-      console.log(answerArr);
     }
   });
 
@@ -67,25 +65,20 @@ $(function() {
       if ($(this).attr("value") === "36") {
         answerArr.push("3");
         answerArr.push("6");
-        console.log(answerArr);
       } else if ($(this).attr("value") === "25") {
         answerArr.push("2");
         answerArr.push("5");
-        console.log(answerArr);
       } else if ($(this).attr("value") === "14") {
         answerArr.push("1");
         answerArr.push("4");
-        console.log(answerArr);
       } else if ($(this).attr("value") === "16") {
         answerArr.push("1");
         answerArr.push("6");
-        console.log(answerArr);
       } else {
         answerArr.push("1");
         answerArr.push("2");
         answerArr.push("4");
         answerArr.push("5");
-        console.log(answerArr);
       }
     } else {
       $('.q2').removeClass('q2chosen');
@@ -98,13 +91,11 @@ $(function() {
           answerArr.pop();
           answerArr.push("3");
           answerArr.push("6");
-          console.log(answerArr);
         } else {
           answerArr.pop();
           answerArr.pop();
           answerArr.push("3");
           answerArr.push("6");
-          console.log(answerArr);
         }
       } else if ($(this).attr("value") === "25") {
         if (answerArr[answerArr.length -1] === "2") {
@@ -113,13 +104,11 @@ $(function() {
           answerArr.pop();
           answerArr.push("2");
           answerArr.push("5");
-          console.log(answerArr);
         } else {
           answerArr.pop();
           answerArr.pop();
           answerArr.push("2");
           answerArr.push("5");
-          console.log(answerArr);
         }
       } else if ($(this).attr("value") === "14") {
         if (answerArr[answerArr.length -1] === "2") {
@@ -128,13 +117,11 @@ $(function() {
           answerArr.pop();
           answerArr.push("1");
           answerArr.push("4");
-          console.log(answerArr);
         } else {
           answerArr.pop();
           answerArr.pop();
           answerArr.push("1");
           answerArr.push("4");
-          console.log(answerArr);
         }
       } else if ($(this).attr("value") === "16") {
         if (answerArr[answerArr.length -1] === "2") {
@@ -143,13 +130,11 @@ $(function() {
           answerArr.pop();
           answerArr.push("1");
           answerArr.push("6");
-          console.log(answerArr);
         } else {
           answerArr.pop();
           answerArr.pop();
           answerArr.push("1");
           answerArr.push("6");
-          console.log(answerArr);
         }
       } else if ($(this).attr("value") === "462") {
         if (answerArr[answerArr.length -1] === "2") {
@@ -159,14 +144,12 @@ $(function() {
           answerArr.push("4");
           answerArr.push("6");
           answerArr.push("2");
-          console.log(answerArr);
         } else {
           answerArr.pop();
           answerArr.pop();
           answerArr.push("4");
           answerArr.push("6");
           answerArr.push("2");
-          console.log(answerArr);
         }
       }
     }
@@ -182,10 +165,8 @@ $(function() {
       if ($(this).attr("value") === "14") {
         answerArr.push("1");
         answerArr.push("4");
-        console.log(answerArr);
       } else {
         answerArr.push($(this).attr("value"));
-        console.log(answerArr);
       }
     } else {
       $('.q3').removeClass('q3chosen');
@@ -195,17 +176,14 @@ $(function() {
         answerArr.pop();
         answerArr.pop();
         answerArr.push($(this).attr("value"));
-        console.log(answerArr);
       } else {
         if ($(this).attr("value") === "14") {
           answerArr.pop();
           answerArr.push("1");
           answerArr.push("4");
-          console.log(answerArr);
         } else {
           answerArr.pop();
           answerArr.push($(this).attr("value"));
-          console.log(answerArr);
         }
       }
     }
@@ -236,14 +214,12 @@ $(function() {
       updateCounter();
       q5clickedOnce = true;
       answerArr.push($(this).attr("value"));
-      console.log(answerArr);
     } else {
       $('.q5').removeClass('q5chosen');
       $(this).addClass('q5chosen');
       $("html, body").animate({ scrollTop: (questionSixTop.top) - 100}, "slow");
       answerArr.pop();
       answerArr.push($(this).attr("value"));
-      console.log(answerArr);
     }
   });
 
@@ -251,20 +227,16 @@ $(function() {
     if (q6clickedOnce === false) {
       $('.q6').removeClass('q6chosen');
       $(this).addClass('q6chosen');
-      console.log(answerArr);
       updateCounter();
       q6clickedOnce = true;
       answerArr.push($(this).attr("value"));
-      console.log(answerArr);
       runLogic();
       $("html, body").animate({ scrollTop: 0 }, "slow");
     } else {
       $('.q6').removeClass('q6chosen');
       $(this).addClass('q6chosen');
-      console.log(answerArr);
       answerArr.pop();
       answerArr.push($(this).attr("value"));
-      console.log(answerArr);
       runLogic();
       $("html, body").animate({ scrollTop: 0 }, "slow");
     }
