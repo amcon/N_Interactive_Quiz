@@ -40,7 +40,7 @@ p {
 /*----------------------------------*/
 
 .header {
-  height: 200px;
+  height: 150px;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -61,8 +61,8 @@ p {
         }
 
         .logo-box {
-          height: 230px;
-          width: 185px;
+          height: 170px;
+          width: 135px;
           margin: 0 0 0 45px;
           display: flex;
           flex-direction: column;
@@ -76,18 +76,18 @@ p {
 
                 .logo-box h2 {
                   color: white;
-                  font-size: 18px;
-                  line-height: 20px;
+                  font-size: 13px;
+                  line-height: 15px;
                   letter-spacing: 1.5px;
                 }
 
                 .logo {
-                  height: 140px;
-                  width: 140px;
+                  height: 105px;
+                  width: 105px;
                   background-image: url('images/nissan-logo-temp.png');
                   background-size: 100%;
                   background-repeat: no-repeat;
-                  margin-top: 35px;
+                  margin-top: 20px;
                 }
 
                 .logo:hover {
@@ -104,8 +104,8 @@ p {
         }
 
                 .header-info img {
-                  height: 27px;
-                  margin-top: 87px;
+                  height: 17px;
+                  margin-top: 55px;
                   margin-right: 45px;
                 }
 
@@ -136,7 +136,6 @@ p {
 .info-box {
   height: 475px;
   width: 100%;
-  margin-top: 50px;
   padding: 25px 0 15px 0;
   display: flex;
   flex-direction: column;
@@ -1119,6 +1118,20 @@ and (max-device-width : 2200px) {
   width: 850px;
 }
 
+.info-box {
+  height: 550px;
+}
+
+.info h1 {
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.info p {
+  font-size: 25px;
+  line-height: 35px;
+}
+
 .answer-info p {
   font-size: 22px;
 }
@@ -1173,7 +1186,8 @@ and (max-device-width : 2600px) {
 }
 
 .info p {
-  font-size: 20px;
+  font-size: 30px;
+  line-height: 35px;
 }
 
 .question h2 {
@@ -1232,14 +1246,18 @@ and (max-device-width : 2800px) {
   width: 1270px;
 }
 
+.info-box {
+  height: 800px;
+}
+
 .info h1 {
-  font-size: 60px;
-  line-height: 50px;
+  font-size: 75px;
+  line-height: 65px;
 }
 
 .info p {
-  font-size: 22px;
-  line-height: 25px;
+  font-size: 40px;
+  line-height: 50px;
 }
 
 .question h2 {
@@ -1290,7 +1308,7 @@ and (min-device-width : 2800px) {
 }
 
 .info-box {
-  height: 600px;
+  height: 800px;
 }
 
 .info {
@@ -1303,8 +1321,8 @@ and (min-device-width : 2800px) {
 }
 
 .info p {
-  font-size: 25px;
-  line-height: 28px;
+  font-size: 45px;
+  line-height: 50px;
 }
 
 .question h2 {
