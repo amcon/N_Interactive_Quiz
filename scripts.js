@@ -469,4 +469,8 @@ $(function() {
     window.open("https://www.instagram.com/nissanusa/", "_blank")
   });
 
+  $('.logo').click(function() {
+    window.open("https://www.nissanusa.com/", "_blank")
+  });
+
 });
