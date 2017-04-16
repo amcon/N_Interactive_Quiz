@@ -827,13 +827,21 @@ and (max-device-width : 736px)
 and (orientation: landscape) {
 
 .finished {
-  height: 520px;
+  height: 480px;
   width: 500px;
   left: 25%;
 }
 
+.finished h1 {
+  font-size: 25px;
+}
+
 .result-description p {
-  font-size: 12px;
+  font-size: 10px;
+}
+
+.result-image {
+  height: 55%;
 }
 
 }
@@ -945,13 +953,21 @@ and (max-device-width : 667px)
 and (orientation: landscape) {
 
 .finished {
-  height: 520px;
+  height: 480px;
   width: 500px;
   left: 25%;
 }
 
+.finished h1 {
+  font-size: 25px;
+}
+
 .result-description p {
-  font-size: 12px;
+  font-size: 10px;
+}
+
+.result-image {
+  height: 55%;
 }
 
 }
@@ -1063,13 +1079,21 @@ and (max-device-width : 568px)
 and (orientation: landscape) {
 
 .finished {
-  height: 520px;
+  height: 480px;
   width: 500px;
   left: 25%;
 }
 
+.finished h1 {
+  font-size: 25px;
+}
+
 .result-description p {
-  font-size: 12px;
+  font-size: 10px;
+}
+
+.result-image {
+  height: 55%;
 }
 
 }
