@@ -430,7 +430,7 @@ $(function() {
   });
 
   $('#share-quiz-email').click(function() {
-    window.open("mailto:?subject=Which Nissan car matches your personality?&body=Take this quiz:%0D%0Ahttps://amcon.github.io/N_Interactive_Quiz", "_blank");
+    window.open("mailto:?subject=Which Nissan car matches your personality?&body=Check out this amazing quiz:%0D%0Ahttps://amcon.github.io/N_Interactive_Quiz", "_blank");
   });
 
 
