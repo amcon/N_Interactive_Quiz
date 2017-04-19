@@ -760,6 +760,10 @@ and (orientation: portrait) {
   height: 30%;
 }
 
+.question h2 {
+  font-size: 45px;
+}
+
 .answer {
   height: 38%;
   width: 50%;
@@ -898,6 +902,10 @@ and (orientation: portrait) {
   height: 30%;
 }
 
+.question h2 {
+  font-size: 45px;
+}
+
 .answer {
   height: 38%;
   width: 50%;
@@ -1034,6 +1042,10 @@ and (orientation: portrait) {
 .question {
   width: 95%;
   height: 30%;
+}
+
+.question h2 {
+  font-size: 45px;
 }
 
 .answer {
