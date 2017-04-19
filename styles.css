@@ -725,10 +725,6 @@ and (min-device-width : 414px)
 and (max-device-width : 736px)
 and (orientation: portrait) {
 
-.question-box.three-answer {
-  height: 1000px;
-}
-
 .after-three {
   margin-top: -50px;
 }
@@ -761,10 +757,25 @@ and (orientation: portrait) {
 
 .question {
   width: 95%;
+  height: 30%;
+}
+
+.answer {
+  height: 38%;
+  width: 50%;
+}
+
+.answer-info {
+  height: 93.5%;
+  width: 93.5%;
+}
+
+.answer-info img {
+  height: 60%;
 }
 
 .question-box {
-  height: 1300px;
+  height: 2000px;
 }
 
 .answer-box {
@@ -772,11 +783,12 @@ and (orientation: portrait) {
 }
 
 .answer-info p {
-  font-size: 25px;
+  font-size: 30px;
+  height: 23%;
 }
 
 #long-answer {
-  font-size: 23px;
+  font-size: 30px;
 }
 
 .finished {
@@ -851,10 +863,6 @@ and (min-device-width : 375px)
 and (max-device-width : 667px)
 and (orientation: portrait) {
 
-.question-box.three-answer {
-  height: 1000px;
-}
-
 .after-three {
   margin-top: -50px;
 }
@@ -887,10 +895,25 @@ and (orientation: portrait) {
 
 .question {
   width: 95%;
+  height: 30%;
+}
+
+.answer {
+  height: 38%;
+  width: 50%;
+}
+
+.answer-info {
+  height: 93.5%;
+  width: 93.5%;
+}
+
+.answer-info img {
+  height: 60%;
 }
 
 .question-box {
-  height: 1300px;
+  height: 2000px;
 }
 
 .answer-box {
@@ -898,11 +921,12 @@ and (orientation: portrait) {
 }
 
 .answer-info p {
-  font-size: 25px;
+  font-size: 30px;
+  height: 23%;
 }
 
 #long-answer {
-  font-size: 23px;
+  font-size: 30px;
 }
 
 .finished {
@@ -977,10 +1001,6 @@ and (min-device-width : 320px)
 and (max-device-width : 568px)
 and (orientation: portrait) {
 
-.question-box.three-answer {
-  height: 1000px;
-}
-
 .after-three {
   margin-top: -50px;
 }
@@ -1013,10 +1033,25 @@ and (orientation: portrait) {
 
 .question {
   width: 95%;
+  height: 30%;
+}
+
+.answer {
+  height: 38%;
+  width: 50%;
+}
+
+.answer-info {
+  height: 93.5%;
+  width: 93.5%;
+}
+
+.answer-info img {
+  height: 60%;
 }
 
 .question-box {
-  height: 1300px;
+  height: 2000px;
 }
 
 .answer-box {
@@ -1024,11 +1059,12 @@ and (orientation: portrait) {
 }
 
 .answer-info p {
-  font-size: 25px;
+  font-size: 30px;
+  height: 23%;
 }
 
 #long-answer {
-  font-size: 23px;
+  font-size: 30px;
 }
 
 .finished {
