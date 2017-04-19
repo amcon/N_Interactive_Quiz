@@ -758,6 +758,7 @@ and (orientation: portrait) {
 .question {
   width: 95%;
   height: 30%;
+  border: 20px solid white;
 }
 
 .question h2 {
@@ -900,6 +901,7 @@ and (orientation: portrait) {
 .question {
   width: 95%;
   height: 30%;
+  border: 20px solid white;
 }
 
 .question h2 {
@@ -1042,6 +1044,7 @@ and (orientation: portrait) {
 .question {
   width: 95%;
   height: 30%;
+  border: 20px solid white;
 }
 
 .question h2 {
