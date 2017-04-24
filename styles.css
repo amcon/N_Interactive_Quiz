@@ -484,7 +484,7 @@ p {
                   width: 600px;
                   display: flex;
                   flex-direction: column;
-                  justify-content: space-around;
+                  justify-content: space-between;
                   align-items: center;
                   transition: 0.5s;
                   position: fixed;
@@ -516,6 +516,7 @@ p {
                           height: 50%;
                           width: 95%;
                           box-shadow: 0 0 .2em lightgrey;
+                          margin: -4% 0 2% 0;
                         }
 
                         .leaf-image {
@@ -536,7 +537,7 @@ p {
                           background-repeat: no-repeat;
                         }
 
-                        .sofc-image {
+                        .e-Bio-Fuel-Cell-image {
                           background-image: url('images/nissan-sofc.jpg');
                           background-size: 100%;
                           background-repeat: no-repeat;
