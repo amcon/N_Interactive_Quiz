@@ -156,12 +156,14 @@ p {
                 .info h1 {
                   font-size: 35px;
                   line-height: 35px;
+                  width: 100%;
                 }
 
                 .info p {
                   font-size: 15px;
                   line-height: 30px;
                   margin-top: 20px;
+                  width: 100%;
                 }
 
                 .share-quiz {
