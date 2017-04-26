@@ -489,7 +489,7 @@ p {
                   justify-content: space-between;
                   align-items: center;
                   transition: 0.5s;
-                  position: absolute;
+                  position: fixed;
                   top: 15px;
                   z-index: 2;
                   box-shadow: 0 0 .5em lightgrey;
