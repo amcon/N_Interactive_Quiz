@@ -489,7 +489,7 @@ p {
                   justify-content: space-between;
                   align-items: center;
                   transition: 0.5s;
-                  position: fixed;
+                  position: absolute;
                   top: 15px;
                   z-index: 2;
                   box-shadow: 0 0 .5em lightgrey;
@@ -1171,7 +1171,7 @@ and (max-device-width : 1400px)
 and (orientation: landscape) {
 
 .finished {
-  height: 800px;
+  height: 660px;
   margin-top: 7%;
   left: 25%;
 }
