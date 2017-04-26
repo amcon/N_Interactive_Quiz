@@ -496,7 +496,7 @@ p {
                 }
 
                 .finished {
-                  height: 650px;
+                  height: 600px;
                   opacity: 1;
                   background-color: #FAFAFA;
                 }
@@ -1158,8 +1158,7 @@ and (max-device-width : 1025px)
 and (orientation: landscape) {
 
 .finished {
-  height: 650px;
-  margin-top: 5%;
+  height: 600px;
   left: 25%;
 }
 
@@ -1172,7 +1171,6 @@ and (orientation: landscape) {
 
 .finished {
   height: 660px;
-  margin-top: 7%;
   left: 25%;
 }
 
