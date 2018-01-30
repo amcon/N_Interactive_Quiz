@@ -5,21 +5,22 @@ body {
   justify-content: flex-start;
   align-items: center;
   background-color: rgb(0, 0, 0);
+  min-width: 600px;
 }
 
 @font-face {
   font-family: "Nissan Brand Bold";
-  src: url('Nissan_Brand_Bold.otf') format("opentype");
+  src: url('Nissan_Brand_Bold.eot?') format('eot'), url('Nissan_Brand_Bold.woff') format('woff'), url('Nissan_Brand_Bold.ttf') format('truetype');
 }
 
 @font-face {
   font-family: "Nissan Brand Regular";
-  src: url('Nissan_Brand_Regular.otf') format("opentype");
+  src: url('Nissan_Brand_Regular.eot?') format('eot'), url('Nissan_Brand_Regular.woff') format('woff'), url('Nissan_Brand_Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: "Nissan Brand Light";
-  src: url('Nissan_Brand_Light.otf') format("opentype");
+  src: url('Nissan_Brand_Light.eot?') format('eot'), url('Nissan_Brand_Light.woff') format('woff'), url('Nissan_Brand_Light.ttf') format('truetype');
 }
 
 h1 {
@@ -42,10 +43,7 @@ p {
 .header {
   height: 150px;
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
+  min-width: 600px;
   background-color: rgb(255, 255, 255);
   box-shadow: 0 0 .5em lightgrey;
   position: relative;
@@ -72,6 +70,7 @@ p {
           box-shadow: 0 0 .5em lightgrey;
           text-align: center;
           padding: 5px 5px 0 5px;
+          float: left;
         }
 
                 .logo-box h2 {
@@ -96,11 +95,11 @@ p {
 
         .header-info {
           height: 100%;
-          width: 500px;
           display: flex;
           flex-direction: column;
           justify-content: flex-start;
           align-items: flex-end;
+          float: right;
         }
 
                 .header-info img {
@@ -489,14 +488,18 @@ p {
                   justify-content: space-between;
                   align-items: center;
                   transition: 0.5s;
-                  position: fixed;
-                  top: 15px;
+                  position: absolute;
+/*                  top: 15px;
+                  left: 27.25%;*/
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
                   z-index: 2;
                   box-shadow: 0 0 .5em lightgrey;
                 }
 
                 .finished {
-                  height: 600px;
+                  height: 650px;
                   opacity: 1;
                   background-color: #FAFAFA;
                 }
@@ -510,8 +513,8 @@ p {
                           align-items: flex-end;
                         }
 
-                                .result-title p {
-                                  margin-bottom: 1%;
+                                .result-title h1 {
+                                  font-size: 25px;
                                 }
 
                         .result-image {
@@ -568,6 +571,7 @@ p {
 
                                 .result-description p {
                                   font-size: 14.5px;
+                                  width: 100%;
                                 }
 
                         .result-share {
@@ -805,8 +809,7 @@ and (orientation: portrait) {
 
 .result {
   width: 90%;
-  left: 5%;
-  top: 250px;
+/*  left: 5%;*/
   justify-content: space-between;
 }
 
@@ -849,7 +852,7 @@ and (orientation: landscape) {
 .finished {
   height: 480px;
   width: 500px;
-  left: 25%;
+/*  left: 25%;*/
 }
 
 .finished h1 {
@@ -948,8 +951,7 @@ and (orientation: portrait) {
 
 .result {
   width: 90%;
-  left: 5%;
-  top: 250px;
+/*  left: 5%;*/
   justify-content: space-between;
 }
 
@@ -992,7 +994,7 @@ and (orientation: landscape) {
 .finished {
   height: 480px;
   width: 500px;
-  left: 25%;
+/*  left: 25%;*/
 }
 
 .finished h1 {
@@ -1091,8 +1093,7 @@ and (orientation: portrait) {
 
 .result {
   width: 90%;
-  left: 5%;
-  top: 250px;
+/*  left: 5%;*/
   justify-content: space-between;
 }
 
@@ -1135,7 +1136,7 @@ and (orientation: landscape) {
 .finished {
   height: 480px;
   width: 500px;
-  left: 25%;
+/*  left: 25%;*/
 }
 
 .finished h1 {
@@ -1158,8 +1159,8 @@ and (max-device-width : 1025px)
 and (orientation: landscape) {
 
 .finished {
-  height: 600px;
-  left: 25%;
+  height: 670px;
+/*  left: 27.25%;*/
 }
 
 }
@@ -1171,7 +1172,7 @@ and (orientation: landscape) {
 
 .finished {
   height: 660px;
-  left: 25%;
+/*  left: 27.25%;*/
 }
 
 }
@@ -1231,10 +1232,10 @@ and (max-device-width : 2200px) {
 }
 
 .finished p {
-  font-size: 25px;
+  font-size: 22px;
 }
 
-.finished h3 {
+#take-again h3 {
   font-size: 25px;
 }
 
@@ -1286,6 +1287,7 @@ and (max-device-width : 2600px) {
 .finished {
   height: 1300px;
   width: 1200px;
+/*  left: 22.5%;*/
 }
 
 .finished h1 {
@@ -1296,7 +1298,7 @@ and (max-device-width : 2600px) {
   font-size: 30px;
 }
 
-.finished h3 {
+#take-again h3 {
   font-size: 30px;
 }
 
@@ -1366,7 +1368,7 @@ and (max-device-width : 2800px) {
   font-size: 35px;
 }
 
-.finished h3 {
+#take-again h3 {
   font-size: 35px;
 }
 
@@ -1428,10 +1430,10 @@ and (min-device-width : 2800px) {
 }
 
 .finished p {
-  font-size: 40px;
+  font-size: 36px;
 }
 
-.finished h3 {
+#take-again h3 {
   font-size: 40px;
 }
 

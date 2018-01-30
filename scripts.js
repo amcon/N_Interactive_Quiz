@@ -34,9 +34,11 @@ $(function() {
   let parsedArr = [];
   let max = 0;
 
+  let quizCompleted = false;
+
   function updateCounter() {
     completedCounter++;
-  }
+  };
 
   $('.q1').click(function() {
     if (q1clickedOnce === false) {
@@ -313,13 +315,14 @@ $(function() {
     resultArr.push(fiveArr.length);
     resultArr.push(sixArr.length);
 
-    max = (resultArr.indexOf(Math.max(...resultArr)) + 1);
+    max = resultArr.indexOf(Math.max.apply(Math, resultArr)) + 1;
 
     appendResult();
-  }
+  };
 
   function appendResult() {
-    if (completedCounter >= 6 && max === 1) {
+    if (completedCounter >= 6 && max === 1 && quizCompleted === false) {
+      quizCompleted = true;
       $('.result').addClass('finished');
       $('.result-image').addClass('leaf-image');
       $('.result-title').append('<h1>Nissan LEAF is for you</h1>');
@@ -333,10 +336,12 @@ $(function() {
           link: 'https://amcon.github.io/N_Interactive_quiz',
           name: 'I got the Nissan LEAF! Try it yourself: ',
           description: quiz_description,
-          picture: 'http://i.imgur.com/OrMswMX.jpg'
+          picture: 'http://i.imgur.com/Pw5vSax.jpg'
         }, function(response){});
+        FB.AppEvents.logEvent("sharedResults");
       });
-    } else if (completedCounter >= 6 && max === 2) {
+    } else if (completedCounter >= 6 && max === 2 && quizCompleted === false) {
+      quizCompleted = true;
       $('.result').addClass('finished');
       $('.result-image').addClass('note-image');
       $('.result-title').append('<h1>Nissan NOTE e-POWER is for you</h1>');
@@ -350,10 +355,12 @@ $(function() {
           link: 'https://amcon.github.io/N_Interactive_quiz',
           name: 'I got the Nissan NOTE e-Power! Try it yourself: ',
           description: quiz_description,
-          picture: 'http://i.imgur.com/OrMswMX.jpg'
+          picture: 'http://i.imgur.com/Pw5vSax.jpg'
         }, function(response){});
+        FB.AppEvents.logEvent("sharedResults");
       });
-    } else if (completedCounter >= 6 && max === 3) {
+    } else if (completedCounter >= 6 && max === 3 && quizCompleted === false) {
+      quizCompleted = true;
       $('.result').addClass('finished');
       $('.result-image').addClass('gtr-image');
       $('.result-title').append('<h1>Nissan GT-R is for you</h1>');
@@ -367,10 +374,12 @@ $(function() {
           link: 'https://amcon.github.io/N_Interactive_quiz',
           name: 'I got the Nissan GT-R! Try it yourself: ',
           description: quiz_description,
-          picture: 'http://i.imgur.com/OrMswMX.jpg'
+          picture: 'http://i.imgur.com/Pw5vSax.jpg'
         }, function(response){});
+        FB.AppEvents.logEvent("sharedResults");
       });
-   } else if (completedCounter >= 6 && max === 4) {
+   } else if (completedCounter >= 6 && max === 4 && quizCompleted === false) {
+      quizCompleted = true;
       $('.result').addClass('finished');
       $('.result-image').addClass('e-Bio-Fuel-Cell-image');
       $('.result-title').append('<h1>e-Bio-Fuel Cell is for you</h1>');
@@ -384,10 +393,12 @@ $(function() {
           link: 'https://amcon.github.io/N_Interactive_quiz',
           name: 'I got the Nissan e-Bio-Fuel Cell! Try it yourself: ',
           description: quiz_description,
-          picture: 'http://i.imgur.com/OrMswMX.jpg'
+          picture: 'http://i.imgur.com/Pw5vSax.jpg'
         }, function(response){});
+        FB.AppEvents.logEvent("sharedResults");
       });
-    } else if (completedCounter >= 6 && max === 5) {
+    } else if (completedCounter >= 6 && max === 5 && quizCompleted === false) {
+      quizCompleted = true;
       $('.result').addClass('finished');
       $('.result-image').addClass('xtrail-image');
       $('.result-title').append("<h1>Nissan X-TRAIL is for you</h1>");
@@ -401,10 +412,12 @@ $(function() {
           link: 'https://amcon.github.io/N_Interactive_quiz',
           name: 'I got the Nissan X-Trail! Try it yourself: ',
           description: quiz_description,
-          picture: 'http://i.imgur.com/OrMswMX.jpg'
+          picture: 'http://i.imgur.com/Pw5vSax.jpg'
         }, function(response){});
+        FB.AppEvents.logEvent("sharedResults");
       });
-    } else if (completedCounter >= 6 && max === 6) {
+    } else if (completedCounter >= 6 && max === 6 && quizCompleted === false) {
+      quizCompleted = true;
       $('.result').addClass('finished');
       $('.result-image').addClass('bladeglider-image');
       $('.result-title').append('<h1>BLADEGLIDER is for you</h1>');
@@ -418,8 +431,9 @@ $(function() {
           link: 'https://amcon.github.io/N_Interactive_quiz',
           name: 'I got the Nissan Bladeglider! Try it yourself: ',
           description: quiz_description,
-          picture: 'http://i.imgur.com/OrMswMX.jpg'
+          picture: 'http://i.imgur.com/Pw5vSax.jpg'
         }, function(response){});
+        FB.AppEvents.logEvent("sharedResults");
       });
     }
   };
@@ -427,6 +441,7 @@ $(function() {
 
   $('#take-again').click(function() {
     location.reload();
+    FB.AppEvents.logEvent("retookQuiz");
   });
 
   $('#share-quiz-email').click(function() {
@@ -441,36 +456,37 @@ $(function() {
       link: 'https://amcon.github.io/N_Interactive_quiz',
       name: quiz_title,
       description: quiz_description,
-      picture: 'http://i.imgur.com/OrMswMX.jpg'
+      picture: 'http://i.imgur.com/Pw5vSax.jpg'
     }, function(response){});
+    FB.AppEvents.logEvent("sharedQuiz");
   });
 
   $('#share-quiz-twitter').click(function() {
     window.open("https://twitter.com/intent/tweet?url=https://amcon.github.io/N_Interactive_Quiz&text=Which Nissan car matches your personality?");
-  })
+  });
 
   $('#share-quiz-pinterest').click(function() {
-    window.open("https://www.pinterest.com/pin/create/button/?url=https://amcon.github.io/N_Interactive_Quiz&media=http://i.imgur.com/OrMswMX.jpg&description=Nissan Intelligent Mobility is not about removing humans from the driving experience. Instead, it’s about building a better future for our customers where cars are their partners, helping drivers to become more confident and more connected. We believe that that people would still love to drive by themselves, so our task is to make their driving experience MORE, not less, exciting.");
+    window.open("https://www.pinterest.com/pin/create/button/?url=https://amcon.github.io/N_Interactive_Quiz&media=http://i.imgur.com/Pw5vSax.jpg&description=Nissan Intelligent Mobility is not about removing humans from the driving experience. Instead, it’s about building a better future for our customers where cars are their partners, helping drivers to become more confident and more connected. We believe that that people would still love to drive by themselves, so our task is to make their driving experience MORE, not less, exciting.");
   });
 
   $('#nissan-facebook').click(function() {
-    window.open("https://www.facebook.com/nissanusa/", "_blank")
+    window.open("https://www.facebook.com/nissan", "_blank")
   });
 
   $('#nissan-twitter').click(function() {
-    window.open("https://twitter.com/NissanUSA", "_blank")
+    window.open("https://twitter.com/nissanmotor", "_blank")
   });
 
   $('#nissan-youtube').click(function() {
-    window.open("https://www.youtube.com/user/nissanusa", "_blank")
+    window.open("https://www.youtube.com/nissan", "_blank")
   });
 
   $('#nissan-instagram').click(function() {
-    window.open("https://www.instagram.com/nissanusa/", "_blank")
+    window.open("https://www.instagram.com/nissan/", "_blank")
   });
 
   $('.logo').click(function() {
-    window.open("https://www.nissanusa.com/", "_blank")
+    window.open("http://www.nissan-global.com/", "_blank")
   });
 
 });
