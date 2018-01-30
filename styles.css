@@ -5,7 +5,6 @@ body {
   justify-content: flex-start;
   align-items: center;
   background-color: rgb(0, 0, 0);
-  min-width: 600px;
 }
 
 @font-face {
@@ -43,7 +42,7 @@ p {
 .header {
   height: 150px;
   width: 100%;
-  min-width: 600px;
+  min-width: 750px;
   background-color: rgb(255, 255, 255);
   box-shadow: 0 0 .5em lightgrey;
   position: relative;
@@ -135,6 +134,7 @@ p {
 .info-box {
   height: 375px;
   width: 100%;
+  min-width: 750px;
   padding: 25px 0 15px 0;
   display: flex;
   flex-direction: column;
@@ -227,6 +227,7 @@ p {
 
 .quiz {
   width: 100%;
+  min-width: 750px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -630,6 +631,7 @@ p {
 
 .footer {
   width: 100%;
+  min-width: 750px;
   box-shadow: 0 0 1em lightgrey;
   background-color: rgb(0, 0, 0);
   display: flex;
